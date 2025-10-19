@@ -1,0 +1,33 @@
+<section class="experience-list">
+  <h2><mat-icon color="primary">work</mat-icon> My Professional Journey</h2>
+
+  <mat-card *ngFor="let job of experience" class="job-card">
+    <div class="card-content-wrapper">
+      
+      <div class="company-info">
+        <img [src]="job.logoUrl" alt="{{ job.company }} logo" class="company-logo">
+        <div class="text-details">
+          <mat-card-title>{{ job.company }}</mat-card-title>
+          <mat-card-subtitle>{{ job.title }}</mat-card-subtitle>
+          <p class="duration-text">
+            <mat-icon class="duration-icon" color="accent">calendar_today</mat-icon> {{ job.duration }}
+          </p>
+        </div>
+      </div>
+
+      <div class="job-details">
+        
+        <div class="tech-stack">
+          <span class="tech-label">Tech Stack:</span>
+          <span *ngFor="let tech of job.techStack" class="tech-tag">{{ tech }}</span>
+        </div>
+
+        <mat-card-content>
+          <ul class="tasks-list">
+            <li *ngFor="let task of job.tasks" [innerHTML]="task"></li>
+          </ul>
+        </mat-card-content>
+      </div>
+    </div>
+  </mat-card>
+</section>
