@@ -20,7 +20,7 @@ export class WorkExperience {
       duration: 'Jan 2023 - Dec 2023',
       techStack: ['Python', 'Django', 'PostgreSQL', 'Git'],
       tasks: [
-        '**Reduced data processing time by 40%** by optimizing database queries in Django.',
+        '<strong>Reduced data processing time by 40%</strong> by optimizing database queries in Django.',
         'Developed and deployed 3 new RESTful API endpoints for external partners.',
         'Wrote comprehensive unit tests, improving code coverage from 60% to 90%.'
       ]
