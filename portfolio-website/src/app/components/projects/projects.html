@@ -1,0 +1,31 @@
+<section class="projects-section">
+  <h2><mat-icon color="primary">code</mat-icon> Selected Projects</h2>
+  
+  <div class="projects-grid">
+    <mat-card *ngFor="let project of projects" class="project-card">
+      
+      <img mat-card-image [src]="project.imageUrl" alt="Image for {{ project.title }}">
+      
+      <mat-card-header>
+        <mat-card-title>{{ project.title }}</mat-card-title>
+        <mat-card-subtitle>
+          <span *ngFor="let tech of project.techStack" class="tech-tag">{{ tech }}</span>
+        </mat-card-subtitle>
+      </mat-card-header>
+      
+      <mat-card-content>
+        <p>{{ project.description }}</p>
+      </mat-card-content>
+      
+      <mat-card-actions class="card-actions">
+        <a [href]="project.githubLink" target="_blank" mat-button color="primary">
+          <mat-icon>code</mat-icon> Code (GitHub)
+        </a>
+        
+        <a *ngIf="project.liveLink" [href]="project.liveLink" target="_blank" mat-button color="accent">
+          <mat-icon>launch</mat-icon> Live Demo
+        </a>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</section>
