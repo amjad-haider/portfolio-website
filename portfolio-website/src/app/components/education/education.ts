@@ -17,30 +17,31 @@ import { MatDividerModule } from '@angular/material/divider';
 })
 export class Education {
   // Define your educational entries
-  education = [
+journeyItems = [
     {
-      institution: 'University Name 1',
-      degree: 'Master of Science in Computer Science',
-      period: 'Sept 2020 - Jun 2022',
-      location: 'City, Country',
+      type: 'education',
+      title: 'University A',
+      subtitle: '(Student)',
+      logoUrl: 'assets/college-logo.png', // Replace with your college logo path
+      headerColor: '#30475E', // Dark blue/gray for header
       details: [
-        'Specialized in Algorithm Design and Analysis.',
-        'Thesis project focused on optimizing resource allocation using Python.',
-        'Relevant Courses: Advanced C++, Distributed Systems.'
+        'Point A',
+        'Point B',
+        'Point C',
+        'Point D'
       ]
     },
     {
-      institution: 'University Name 2',
-      degree: 'Bachelor of Technology in Engineering',
-      period: 'Sept 2016 - May 2020',
-      location: 'City, Country',
+      type: 'work',
+      title: 'University B',
+      subtitle: 'Student',
+      logoUrl: 'assets/propel-logo.png', // Replace with Propel logo path
+      headerColor: '#172740', // Darker blue/black
       details: [
-        'Graduated with Honors.',
-        'Completed a major project using C++ for real-time data visualization.',
-        'Involved in the campus coding club and led a team for a hackathon.'
+        'Explored ROS.',
+        'Text b.',
+        'Understood complex tax calculation requirements and rewrote an existing module and improved processing performance by 50%.'
       ]
-    },
-    // Add any other relevant courses, certifications, or self-study
+    }
   ];
-
 }
