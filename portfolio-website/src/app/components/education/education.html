@@ -1,0 +1,30 @@
+<p>education works!</p>
+<section class="education-section">
+  <h2><mat-icon color="accent">school</mat-icon> My Educational Journey</h2>
+  
+  <div class="timeline-container">
+    <mat-card *ngFor="let item of education; let isLast = last" class="education-card">
+      <div class="card-header-content">
+        <div class="icon-point">
+          <mat-icon color="primary">star</mat-icon>
+        </div>
+        
+        <div class="text-content">
+          <mat-card-title>{{ item.degree }}</mat-card-title>
+          <mat-card-subtitle>{{ item.institution }} ({{ item.location }})</mat-card-subtitle>
+          <p class="period">{{ item.period }}</p>
+
+          <mat-card-content class="details-content">
+            <ul>
+              <li *ngFor="let detail of item.details">
+                <mat-icon class="bullet-icon">check_circle</mat-icon> {{ detail }}
+              </li>
+            </ul>
+          </mat-card-content>
+        </div>
+      </div>
+      
+      <mat-divider *ngIf="!isLast"></mat-divider>
+    </mat-card>
+  </div>
+</section>

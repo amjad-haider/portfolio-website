@@ -1,0 +1,92 @@
+.education-section {
+  padding: 40px 0;
+}
+
+/* Container for the timeline effect */
+.timeline-container {
+  position: relative;
+  padding-left: 30px; /* Space for the vertical line */
+}
+
+/* Style the card */
+.education-card {
+  margin-bottom: 25px;
+  position: relative;
+  border-left: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.card-header-content {
+  display: flex;
+  padding: 15px;
+}
+
+.text-content {
+  flex-grow: 1;
+}
+
+/* The vertical timeline line */
+.timeline-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10px; /* Position the line */
+  width: 2px;
+  background-color: #e0e0e0; /* Light gray line color */
+}
+
+/* The round icon/point on the line */
+.icon-point {
+  position: absolute;
+  left: 0; /* Align with the timeline line */
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white; /* White center for the icon */
+  border-radius: 50%;
+  transform: translateX(-50%); /* Center the icon over the line */
+  z-index: 1;
+}
+
+.icon-point mat-icon {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+/* Adjust divider color to blend with the timeline */
+mat-divider {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-color: #f0f0f0;
+}
+
+.period {
+  font-style: italic;
+  color: #757575;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.details-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.details-content li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+.bullet-icon {
+  font-size: 16px !important;
+  width: 16px !important;
+  height: 16px !important;
+  margin-right: 8px;
+  color: #4caf50; /* Green checkmark */
+}
