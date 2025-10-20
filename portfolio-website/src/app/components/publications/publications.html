@@ -1,0 +1,29 @@
+<section class="publications-section">
+  <h2><mat-icon color="primary">description</mat-icon> Publications</h2>
+  
+  <div class="publication-list">
+    <mat-card *ngFor="let pub of publications" class="publication-card">
+      <mat-card-header>
+        <mat-card-title>{{ pub.title }}</mat-card-title>
+        <mat-card-subtitle>
+          {{ pub.authors }} ({{ pub.year }})
+        </mat-card-subtitle>
+      </mat-card-header>
+      
+      <mat-card-content>
+        <p class="journal-info">
+          <mat-icon class="journal-icon">book</mat-icon> {{ pub.journal }}
+        </p>
+        <p *ngIf="pub.doi" class="doi-info">
+          <mat-icon class="doi-icon">link</mat-icon> DOI: {{ pub.doi }}
+        </p>
+      </mat-card-content>
+      
+      <mat-card-actions>
+        <a [href]="pub.link" target="_blank" mat-button color="accent">
+          <mat-icon>visibility</mat-icon> View Publication
+        </a>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</section>
