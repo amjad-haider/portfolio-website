@@ -4,7 +4,7 @@
 
 ## 1. About the Project
 
-The aim of this repo os to create structured components for my portfolio website so i can update the contents efficiently using modern frameworks like Angular. I chose this approach over vibe coding as i know where each component is if any error occurs.
+The aim of this repo is to create structured components for my portfolio website so i can update the contents efficiently using modern frameworks like Angular. I chose this approach over vibe coding as i know where each component is if any error occurs.
 
 ## 2. Technology Stack Used
 
