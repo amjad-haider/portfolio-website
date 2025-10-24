@@ -15,7 +15,8 @@ export class SidebarComponent {
     cvUrl: 'assets/CV.pdf',
     socialLinks: {
       linkedin: 'https://www.linkedin.com/in/amjadhaider/',
-      github: 'https://github.com/amjad-haider'
+      github: 'https://github.com/amjad-haider',
+      xing: 'https://www.xing.com/profile/AMJAD_HAIDER/'
     }
   };
 
