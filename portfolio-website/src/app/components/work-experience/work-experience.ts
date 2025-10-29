@@ -11,20 +11,19 @@ import { MatIconModule } from '@angular/material/icon';
 })
 
 export class WorkExperience {
-  // 1. Define the data structure for your experience
   experience = [
     {
-      company: 'Tech Solutions Inc.',
-      title: 'Junior Python Developer',
-      logoUrl: 'assets/VWGroup.png', // Replace with a real path/URL
-      duration: 'Jan 2023 - Dec 2023',
-      techStack: ['Python', 'Django', 'PostgreSQL', 'Git'],
+      company: 'Institute of Electromobility - RPTU Kaiserslautern',
+      title: 'Research Assitant',
+      logoUrl: 'assets/JEM_Logo.svg', 
+      duration: 'Nov 2024 - Sep 2025',
+      techStack: ['Python', 'ROS2', 'Moveit2', 'PX4','Gazebo11'],
       tasks: [
-        '<strong>Reduced data processing time by 40%</strong> by optimizing database queries in Django.',
-        'Developed and deployed 3 new RESTful API endpoints for external partners.',
-        'Wrote comprehensive unit tests, improving code coverage from 60% to 90%.'
+        'Designing and implementing algorithms for motion planning, control, and navigation for robotic manipulators and mobile platforms using Arduino and Micro-ROS',
+        'Developing and validating navigation algorithms (e.g., SLAM) in the Gazebo simulation environment using ROS',
+        'Supporting the integration of sensors and actuators into the existing ROS environment'
       ]
     },
-    // Add more entries here for each job/internship
+    
   ];
 }
