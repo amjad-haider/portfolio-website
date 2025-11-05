@@ -81,6 +81,17 @@ export class WorkExperience {
         'To be filled.'
       ]
     },
+    {
+      company: 'Xitadel',
+      title: 'Senior Software Engineer',
+      logoUrl: 'assets/xitadel_group_logo.jpg', 
+      duration: 'June 2018 - August 2021',
+      techStack: ['Git', 'C++', 'Python', 'Pytorch','Linux','ANSA'],
+      tasks: [
+        'To be filled.'
+      ]
+    },
+    
     
   ];
 }
