@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./sidebar.css']
 })
 export class SidebarComponent {
+  isMenuOpen = false;
   profileData = {
     name: 'Amjad Haider',
     title: 'Robotics Developer',
@@ -21,6 +22,26 @@ export class SidebarComponent {
   };
 
   constructor() { }
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
+
+  closeMenu() {
+    this.isMenuOpen = false;
+  }
+
+  // 3. Smooth Scroll Logic
+  scrollTo(sectionId: string) {
+    this.closeMenu(); // Always close the menu after clicking a link
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ 
+        behavior: 'smooth', 
+        block: 'start' 
+      });
+    }
+  }
 
   onImageError(event: any) {
     const img = event.target;

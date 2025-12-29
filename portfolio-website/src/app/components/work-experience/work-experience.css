@@ -3,71 +3,75 @@
   padding: 20px 0;
 }
 
-/* Style for the main card container */
 .job-card {
   margin-bottom: 30px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
-  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
 }
 
-/* Use Flexbox to align company info (left) and job details (right) */
+/* --- RESPONSIVE FLEXBOX SETUP --- */
 .card-content-wrapper {
   display: flex;
-  gap: 30px; /* Space between the two columns */
-  padding: 10px;
+  flex-direction: column; /* Default for Mobile: Stacked */
+  gap: 20px; 
+  padding: 20px;
 }
 
 /* Left Column: Company Info */
 .company-info {
-  flex: 0 0 200px; /* Fixed width for the left side */
+  flex: 1; /* Full width on mobile */
   display: flex;
-  flex-direction: column;
+  flex-direction: row; /* Horizontal on mobile for compact look */
   align-items: center;
-  text-align: center;
-  border-right: 1px solid #eee; /* Visual separator */
-  padding-right: 30px;
+  gap: 15px;
+  border-right: none; 
+  border-bottom: 1px solid #eee; /* Horizontal separator for mobile */
+  padding-bottom: 15px;
+  text-align: left;
 }
 
+/* Tablet & Desktop Adjustments */
+@media (min-width: 768px) {
+  .card-content-wrapper {
+    flex-direction: row; /* Side-by-side on Desktop */
+    gap: 30px;
+  }
+
+  .company-info {
+    flex: 0 0 200px; /* Revert to fixed width */
+    flex-direction: column; /* Revert to vertical stack */
+    text-align: center;
+    border-right: 1px solid #eee; /* Revert to right separator */
+    border-bottom: none;
+    padding-bottom: 0;
+    padding-right: 30px;
+  }
+
+  .company-logo {
+    width: 100px; /* Slightly larger on desktop */
+    height: 100px;
+  }
+}
+
+/* --- REST OF YOUR STYLING --- */
 .company-logo {
-  width: 80px;
-  height: 80px;
+  width: 60px; /* Smaller for mobile row */
+  height: 60px;
   object-fit: contain;
-  margin-bottom: 10px;
-  border-radius: 50%; /* Optional: make logo circular */
+  border-radius: 50%;
   border: 1px solid #ddd;
 }
 
 .duration-text {
   font-size: 0.9em;
   color: #555;
-  margin-top: 5px;
   display: flex;
   align-items: center;
   gap: 5px;
 }
 
-.duration-icon {
-    font-size: 18px !important;
-    width: 18px !important;
-    height: 18px !important;
-}
-
-/* Right Column: Job Details */
 .job-details {
-  flex-grow: 1; /* Takes up the remaining space */
-}
-
-/* Tech Stack Styling */
-.tech-stack {
-  margin-bottom: 15px;
-  padding: 10px 0;
-  border-bottom: 1px dashed #eee;
-}
-
-.tech-label {
-  font-weight: bold;
-  margin-right: 10px;
-  color: #333;
+  flex-grow: 1;
 }
 
 .tech-tag {
@@ -75,12 +79,11 @@
   background-color: #e0e0e0;
   color: #333;
   padding: 3px 8px;
-  margin-right: 5px;
+  margin: 2px 5px 2px 0; /* Margin on all sides for wrapping */
   border-radius: 4px;
   font-size: 0.8em;
 }
 
-/* Task List Styling */
 .tasks-list {
   padding-left: 20px;
   line-height: 1.6;

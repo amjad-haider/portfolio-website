@@ -15,8 +15,8 @@
 
       <mat-card-content class="details-content">
         <ul>
-          <li *ngFor="let detail of item.details">
-            {{ detail }}
+          🛠️ Core Technical Focus
+          <li *ngFor="let detail of item.details" [innerHTML]="detail">
           </li>
         </ul>
       </mat-card-content>

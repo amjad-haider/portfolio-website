@@ -20,27 +20,28 @@ export class Education {
 journeyItems = [
     {
       type: 'education',
-      title: 'University A',
-      subtitle: '(Student)',
-      logoUrl: 'assets/college-logo.png', // Replace with your college logo path
+      title: 'Rheinland-Pfälzische Technische Universität',
+      subtitle: 'M.Sc in Commercial Vehicle Technology',
+      logoUrl: 'assets/RPTU_Logo.svg', // Replace with your college logo path
       headerColor: '#30475E', // Dark blue/gray for header
       details: [
-        'Point A',
-        'Point B',
-        'Point C',
-        'Point D'
+        '<strong>Autonomous Mobile Robots</strong>: Actively engaged in research and integration of Robots including aStrider and AutoBus at the university.',
+        '<strong>Robot Kinematics & Dynamics : Development of Arm Manipulator Robots(Braccio)',
+        '<strong>Computer Vision & Perception : Using Google Mediapipe for Landmark detection and tracking.',
+        '<strong>Control Theory</strong>: Implementation of PID, MPC and State-Space Controllers.'
       ]
     },
     {
       type: 'work',
-      title: 'University B',
-      subtitle: 'Student',
-      logoUrl: 'assets/propel-logo.png', // Replace with Propel logo path
+      title: 'Cochin University of Science and Technology',
+      subtitle: 'B.Tech in Mechanical Engineering',
+      logoUrl: 'assets/Cusat_logo.png', // Replace with Propel logo path
       headerColor: '#172740', // Darker blue/black
       details: [
-        'Explored ROS.',
-        'Text b.',
-        'Understood complex tax calculation requirements and rewrote an existing module and improved processing performance by 50%.'
+        'Engineering Mehcanics and Strength of Materials',
+        'Theory of Machines and Mechanisms',
+        'Control Systems',
+        'Fluid Mechanics and Heat Transfer'
       ]
     }
   ];

@@ -16,7 +16,7 @@ export class WorkExperience {
       company: 'Institute of Electromobility - RPTU Kaiserslautern',
       title: 'Research Assistant',
       logoUrl: 'assets/JEM_Logo.svg', 
-      duration: 'Nov 2024 - Sep 2025',
+      duration: 'Nov 2024 - Nov 2025',
       techStack: ['Python', 'ROS2', 'Moveit2', 'PX4','Gazebo11'],
       tasks: [
         'Designing and implementing algorithms for motion planning, control, and navigation for robotic manipulators and mobile platforms using Arduino and Micro-ROS',
@@ -28,7 +28,7 @@ export class WorkExperience {
       company: 'Lehrstuhl für Virtuelle Produktentwicklung (VPE) - RPTU',
       title: 'Research Assistant',
       logoUrl: 'assets/VPE.svg', 
-      duration: 'May 2024 - Sep 2025',
+      duration: 'May 2024 - Nov 2025',
       techStack: ['Python', 'Sysmlv2', 'Django', 'Langchain','MQTT','IoT','ESP32','Raspberry Pi','SLMs','Docker'],
       tasks: [
         'Programming and connection tasks in the context of the Internet of Things, including setting up a network with ESP32 and Raspberry Pi, implementing protocols such as MQTT, and transferring data to an IoT platform with visualisation and analysis.',
