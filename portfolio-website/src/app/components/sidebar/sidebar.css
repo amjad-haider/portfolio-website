@@ -1,5 +1,4 @@
-/* Copy this entire content into src/app/components/sidebar/sidebar.component.css */
-
+/* --- Desktop Fixed Sidebar (Your Original Style) --- */
 .sidebar {
   position: fixed;
   left: 0;
@@ -11,7 +10,8 @@
   padding: 40px 30px;
   box-sizing: border-box;
   overflow-y: auto;
-  z-index: 100;
+  z-index: 1000;
+  transition: left 0.3s ease-in-out; /* Added for mobile slide */
 }
 
 .profile-section {
@@ -21,13 +21,14 @@
   text-align: center;
 }
 
+/* --- PHOTO STYLE RESTORED --- */
 .profile-image-container {
   margin-bottom: 24px;
 }
 
 .profile-image {
-  width: 180px;           /* This controls the image size! */
-  height: 180px;          /* This controls the image size! */
+  width: 180px; 
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid #f3f4f6;
@@ -40,6 +41,7 @@
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
+/* --- TYPOGRAPHY RESTORED --- */
 .profile-info {
   margin-bottom: 32px;
 }
@@ -67,16 +69,55 @@
   line-height: 1.4;
 }
 
-.contact-section {
+/* --- NEW: Burger Toggle (Mobile Only) --- */
+.menu-toggle {
+  display: none;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 1100;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  align-items: center;
+  justify-content: center;
+}
+
+/* --- NEW: Nav Links --- */
+.nav-links {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
   width: 100%;
 }
 
-.contact-item {
-  margin-bottom: 16px;
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: #4b5563;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
 }
 
-.email-link,
-.cv-link {
+.nav-item:hover { background: #f3f4f6; color: #111827; }
+.nav-item .material-icons { font-size: 20px; color: #9ca3af; }
+
+/* --- CONTACT & SOCIAL (Your Original Style) --- */
+.contact-section { width: 100%; }
+.contact-item { margin-bottom: 16px; }
+
+.email-link, .cv-link {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -92,32 +133,8 @@
   box-sizing: border-box;
 }
 
-.email-link:hover,
-.cv-link:hover {
-  background: #f3f4f6;
-  border-color: #d1d5db;
-  color: #111827;
-  transform: translateY(-1px);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.cv-link {
-  background: #3b82f6;
-  color: white;
-  border-color: #3b82f6;
-}
-
-.cv-link:hover {
-  background: #2563eb;
-  border-color: #2563eb;
-  color: white;
-}
-
-.icon {
-  width: 18px;
-  height: 18px;
-  flex-shrink: 0;
-}
+.cv-link { background: #3b82f6; color: white; border-color: #3b82f6; }
+.cv-link:hover { background: #2563eb; color: white; }
 
 .social-links {
   display: flex;
@@ -138,104 +155,23 @@
   border: 1px solid #e5e7eb;
   border-radius: 8px;
   color: #6b7280;
-  text-decoration: none;
   transition: all 0.2s ease;
 }
 
-.social-link:hover {
-  background: #f3f4f6;
-  color: #374151;
-  border-color: #d1d5db;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
+.icon { width: 20px; height: 20px; }
 
-.social-link .icon {
-  width: 20px;
-  height: 20px;
-}
-
-/* Responsive Design */
-@media (max-width: 1024px) {
-  .sidebar {
-    position: relative;
-    width: 100%;
-    height: auto;
-    border-right: none;
-    border-bottom: 1px solid #e5e7eb;
-    padding: 30px 20px;
+/* --- RESPONSIVE DRAWER LOGIC --- */
+@media (max-width: 991px) {
+  .menu-toggle { display: flex; }
+  .sidebar { left: -300px; box-shadow: 5px 0 15px rgba(0,0,0,0.1); }
+  .sidebar.open { left: 0; }
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.4);
+    z-index: 999;
   }
-
-  .profile-section {
-    flex-direction: row;
-    text-align: left;
-    align-items: flex-start;
-    gap: 24px;
-  }
-
-  .profile-image {
-    width: 120px;
-    height: 120px;
-  }
-
-  .profile-info {
-    flex: 1;
-    margin-bottom: 0;
-  }
-
-  .contact-section {
-    margin-top: 20px;
-  }
-
-  .social-links {
-    justify-content: flex-start;
-  }
-}
-
-@media (max-width: 768px) {
-  .sidebar {
-    padding: 20px;
-  }
-
-  .profile-section {
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-  }
-
-  .profile-image {
-    width: 100px;
-    height: 100px;
-  }
-
-  .name {
-    font-size: 24px;
-  }
-
-  .email-link,
-  .cv-link {
-    font-size: 14px;
-    padding: 10px 14px;
-  }
-
-  .social-links {
-    justify-content: center;
-  }
-}
-
-/* Error state for missing image */
-.profile-image[src=""],
-.profile-image[src="#"] {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 48px;
-  font-weight: bold;
-}
-
-/* Loading state */
-.profile-image {
-  background: #f3f4f6;
 }

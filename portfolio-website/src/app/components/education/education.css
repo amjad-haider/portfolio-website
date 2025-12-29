@@ -4,81 +4,106 @@
 }
 
 .journey-section h1 {
-  font-size: 2.5em;
+  font-size: clamp(1.8rem, 5vw, 2.5rem); /* Responsive heading */
   font-weight: 300;
   margin-bottom: 30px;
+  text-align: center; /* Centered for better mobile appearance */
 }
 
-/* --- Grid Layout for Horizontal Cards --- */
+/* --- Responsive Grid Layout --- */
 .journey-grid {
   display: grid;
-  /* Creates 3 columns of equal width, ensuring they stay side-by-side */
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 25px; /* Space between cards */
+  /* MOBILE DEFAULT: 1 Column */
+  grid-template-columns: 1fr; 
+  gap: 60px; /* Increased gap because of the logo overlap overlap */
   padding: 0 15px; 
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* TABLET & DESKTOP: 2 Columns */
+@media (min-width: 992px) {
+  .journey-grid {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 25px;
+  }
 }
 
 /* --- Card Styles --- */
 .journey-card {
   border-radius: 12px;
-  overflow: hidden; 
+  overflow: visible; /* Changed from hidden to allow logo to "pop" out safely */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
   display: flex; 
   flex-direction: column;
+  background: white;
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), 
+              box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+}
+
+.journey-card:hover {
+  /* Lift the card slightly up */
+  transform: translateY(-8px); 
+  
+  /* Make the shadow deeper and softer to simulate height */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Optional: Slight color shift on the header for extra feedback */
+.journey-card:hover .card-custom-header {
+  filter: brightness(1.1);
+  transition: filter 0.3s ease;
 }
 
 /* --- Custom Colored Header Area --- */
 .card-custom-header {
-  padding: 20px 20px 100px 20px; 
+  padding: 30px 20px 80px 20px; 
   color: white;
   text-align: center;
   position: relative;
-  z-index: 1; /* Header is at the back, below the logo */
+  z-index: 1;
 }
 
 .card-custom-header h2 {
-  font-size: 1.4em;
-  font-weight: 400;
+  font-size: 1.3rem;
+  font-weight: 500;
   margin: 0 0 5px 0;
 }
 
 .card-custom-header p {
-  font-size: 0.9em;
+  font-size: 0.85rem;
   font-style: italic;
+  opacity: 0.9;
   margin: 0;
 }
 
 /* --- Logo Overlap Area --- */
 .logo-area {
-  /* Position relative is crucial for z-index to work against the other elements */
   position: relative; 
-  z-index: 3; /* **CRUCIAL FIX:** Ensures logo sits on top of all other card elements */
-  
-  /* These transform settings create the overlap effect */
+  z-index: 3; 
   transform: translateY(-50%); 
-  margin-bottom: -50px; 
+  margin-bottom: -40px; 
   text-align: center;
 }
 
 .item-logo {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
-  border: 5px solid white; 
+  border: 4px solid white; 
   object-fit: contain;
   background-color: white;
-  display: block; /* Ensures consistent centering */
   margin: 0 auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 /* --- Details List Content --- */
 .details-content {
-  /* CRUCIAL FIX: Ensure this padding starts below the logo area */
-  padding-top: 20px !important; 
-  
+  padding: 20px !important; 
   flex-grow: 1; 
   position: relative;
-  z-index: 2; /* Sits below the logo, but above the header */
+  z-index: 2;
 }
 
 .details-content ul {
@@ -89,16 +114,25 @@
 
 .details-content li {
   position: relative;
-  padding-left: 20px;
-  margin-bottom: 10px;
-  font-size: 0.95em;
-  line-height: 1.4;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #444;
 }
 
 .details-content li::before {
-  content: "•"; 
+  content: "check_circle"; /* Material Icon look using bullet */
+  font-family: 'Material Icons'; /* If you use Material Icons font */
   position: absolute;
   left: 0;
-  font-size: 1.2em;
+  font-size: 1rem;
   color: #3f51b5; 
+}
+
+/* Fallback if you don't use Material Icons font for bullets */
+.details-content li:not(.material-icons)::before {
+    content: "•";
+    font-size: 1.5rem;
+    top: -4px;
 }

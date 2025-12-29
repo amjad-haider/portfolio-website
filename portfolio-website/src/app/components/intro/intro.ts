@@ -8,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class Intro {
 
+  // This is the "Dummy" function. 
+  // It accepts the ID but does nothing, which stops the red error.
+  scrollTo(sectionId: string) {
+    // Logic can be added here later!
+    console.log('Scroll requested to:', sectionId);
+  }
+
 }
