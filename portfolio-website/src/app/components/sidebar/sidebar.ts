@@ -35,7 +35,7 @@ export class SidebarComponent {
 
   // 3. Smooth Scroll Logic
   scrollTo(sectionId: string) {
-    this.closeMenu(); // Always close the menu after clicking a link
+    this.closeMenu();
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ 

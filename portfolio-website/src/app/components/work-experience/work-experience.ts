@@ -85,6 +85,18 @@ export class WorkExperience {
         'Built and integrated ROS sensor interfaces and navigation nodes together with Behavior Trees, focusing on low-latency data synchronization.'
       ]
     },
+    {
+      company: 'Xitadel',
+      title: 'Senior Software Engineer',
+      logoUrl: 'assets/Xitadel.png', 
+      duration: 'June 2018 - August 2021',
+      techStack: ['Finroc', 'C++', 'MATLAB', 'Pytorch','Linux','ROS2'],
+      tasks: [
+        'Creation of automation scripts (Python) for Finite Element Analysis and dashboards, developed with Python and Qt Framework',
+        'Optimized the mid-mesh generation process within ANSA, enhancing efficiency and accuracy for complex geometric simulations.',
+        'Implementation and debugging of complex software modules.'
+      ]
+    },
     
   ];
 }

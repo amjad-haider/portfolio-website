@@ -15,12 +15,13 @@ export class Projects {
 // Define your project data here
   projects = [
     {
-      title: 'Python Data Processing Pipeline',
-      description: 'A script developed to scrape, clean, and analyze public datasets, demonstrating Python scripting and data manipulation proficiency.',
-      techStack: ['Python', 'Pandas', 'Requests'],
-      githubLink: 'https://github.com/amjad-haider/python-data-tool', // Replace with your actual link
+      title: 'Autonomous Factory Automation System',
+      // subtitle: 'Multi-Robot Coordination & Inverse Kinematics in Webots',
+      description: 'Designed and simulated a complete industrial pipeline in Webots involving synchronized mobile robots and robotic arms for end-to-end material handling.',
+      techStack: ['Python', 'Webots', 'Inverse Kinematics', 'Industrial Automation'],
+      githubLink: '', // Replace with your actual link
       liveLink: null, // Or replace with a link to a live demo
-      imageUrl: 'assets/project-data-pipe.png' // Add an image to your assets folder
+      imageUrl: 'assets/webots.gif' // Add an image to your assets folder
     },
     {
       title: 'C++ Pathfinding Algorithm Visualizer',
