@@ -68,7 +68,9 @@ export class WorkExperience {
       duration: 'February 2023 - October 2023',
       techStack: ['BetaFlight Simulator', 'Grafana', 'MQTT', 'Python','Data Analytics','InfluxDB'],
       tasks: [
-        'To be filled.'
+        'Developed Python scripts to stream real-time telemetry data via MQTT for remote monitoring',
+        'Built data dashboards in Grafana using InfluxDB to analyze sensor performance and system health',
+        'Developed and tested low-level logic  with the help of Betaflight for real-time motor synchronization and stabilization on 4-motor BLDC UAV systems.'
       ]
     },
     {
@@ -78,7 +80,9 @@ export class WorkExperience {
       duration: 'February 2023 - October 2023',
       techStack: ['Finroc', 'C++', 'MATLAB', 'Pytorch','Linux','ROS2'],
       tasks: [
-        'To be filled.'
+        'Developement of Graph-based SLAM and Kalman Filter (EKF/UKF) modules in C++ for the AutoBus and aStrider autonomous platforms',
+        'Fused IMU and GPS data for real-time localization and state estimation in pedestrian zones.',
+        'Built and integrated ROS sensor interfaces and navigation nodes together with Behavior Trees, focusing on low-latency data synchronization.'
       ]
     },
     
