@@ -15,7 +15,7 @@ export class SidebarComponent {
     affiliation: 'University of Kaiserslautern-Landau',
     email: 'amjad.haider@gmx.de',
     profileImage: 'assets/profile.jpg',
-    cvUrl: 'assets/Lebenslauf_Haider_Amjad.pdf',
+    cvUrl: 'assets/CV.pdf',
     socialLinks: {
       linkedin: 'https://www.linkedin.com/in/amjadhaider/',
       github: 'https://github.com/amjad-haider',
