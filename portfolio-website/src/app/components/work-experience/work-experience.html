@@ -5,7 +5,11 @@
     <div class="card-content-wrapper">
       
       <div class="company-info">
-        <img [src]="job.logoUrl" alt="{{ job.company }} logo" class="company-logo">
+        @if (job.logoUrl) {
+          <img [src]="job.logoUrl" alt="{{ job.company }} logo" class="company-logo" [class.logo-wide]="job.wideLogo">
+        } @else {
+          <div class="company-logo logo-badge">{{ job.logoText }}</div>
+        }
         <div class="text-details">
           <mat-card-title>{{ job.company }}</mat-card-title>
           <mat-card-subtitle>{{ job.title }}</mat-card-subtitle>

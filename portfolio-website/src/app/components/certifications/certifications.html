@@ -1,0 +1,29 @@
+<section class="certifications-section">
+  <h2><mat-icon color="primary">workspace_premium</mat-icon> Certifications</h2>
+
+  <div class="cert-list">
+    @for (cert of certifications; track cert.title) {
+      <mat-card class="cert-card">
+        <mat-card-header>
+          <img mat-card-avatar class="cert-logo" [src]="cert.logoUrl" alt="{{ cert.issuer }} logo">
+          <mat-card-title>{{ cert.title }}</mat-card-title>
+          <mat-card-subtitle>
+            {{ cert.issuer }}@if (cert.date) { · {{ cert.date }} }
+          </mat-card-subtitle>
+        </mat-card-header>
+
+        <mat-card-content>
+          <p class="cert-description">{{ cert.description }}</p>
+        </mat-card-content>
+
+        @if (cert.verifyUrl) {
+          <mat-card-actions>
+            <a [href]="cert.verifyUrl" target="_blank" rel="noopener" mat-button color="accent">
+              <mat-icon>verified</mat-icon> Verify Certificate
+            </a>
+          </mat-card-actions>
+        }
+      </mat-card>
+    }
+  </div>
+</section>

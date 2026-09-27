@@ -13,6 +13,21 @@ import { MatIconModule } from '@angular/material/icon';
 export class WorkExperience {
   experience = [
     {
+      company: 'iDTRONIC GmbH, Ludwigshafen',
+      title: 'Freelance Embedded Software Engineer',
+      logoUrl: '/assets/idtronic.webp',
+      logoText: 'iD', // shown instead if logoUrl is empty
+      wideLogo: true, // wordmark logo: shown as a rectangle instead of a circle
+      duration: 'Feb 2026 - Jul 2026',
+      techStack: ['Node.js', 'TCP/IP', 'CRC-16/MCRF4xx', 'MQTT', 'Thingsboard', 'SQL', 'IoT'],
+      tasks: [
+        'Built a TCP proxy server in Node.js for protocol parsing of GPS tracker ECUs.',
+        'Implemented CRC-validated communication parsers (CRC-16/MCRF4xx and XOR) for embedded systems.',
+        'Delivered a real-time telemetry pipeline on the Thingsboard IoT platform with an MQTT uplink decoder.',
+        'Managed the SQL database for storage, querying and analysis of telemetry data.'
+      ]
+    },
+    {
       company: 'Institute of Electromobility - RPTU Kaiserslautern',
       title: 'Research Assistant',
       logoUrl: 'assets/JEM_Logo.svg', 

@@ -1,0 +1,42 @@
+.certifications-section {
+  padding: 40px 0;
+}
+
+.cert-list {
+  display: grid;
+  gap: 20px;
+}
+
+.cert-card {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+}
+
+.cert-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cert-logo {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+mat-card-title {
+  font-size: 1.15em;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+mat-card-subtitle {
+  font-size: 0.9em;
+  color: #3f51b5;
+}
+
+.cert-description {
+  font-size: 0.95em;
+  color: #555;
+  margin-top: 8px;
+}
