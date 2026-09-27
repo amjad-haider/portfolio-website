@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, LOCALE_ID, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -9,6 +9,8 @@ import { CommonModule } from '@angular/common';
 })
 export class SidebarComponent {
   isMenuOpen = false;
+  // Each language is a separate build; LOCALE_ID tells us which one is running
+  isGerman = inject(LOCALE_ID).startsWith('de');
   profileData = {
     name: 'Amjad Haider',
     title: $localize`:@@profile.title:Robotics Developer`,

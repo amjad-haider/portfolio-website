@@ -66,6 +66,11 @@
       </div>
     </div>
   </div>
+  <div class="lang-switch" aria-label="Language">
+    <a href="/" hreflang="en" lang="en" [class.active]="!isGerman">EN</a>
+    <span class="lang-divider">|</span>
+    <a href="/de/" hreflang="de" lang="de" [class.active]="isGerman">DE</a>
+  </div>
   <nav class="nav-links">
     <a (click)="scrollTo('intro')" class="nav-item">
       <span class="material-icons">person</span> <span i18n="@@nav.intro">Introduction</span>

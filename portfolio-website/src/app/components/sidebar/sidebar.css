@@ -175,3 +175,35 @@
     z-index: 999;
   }
 }
+/* Language switch (EN | DE) */
+.lang-switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 16px 0 20px;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.lang-switch a {
+  padding: 4px 10px;
+  border-radius: 6px;
+  color: #6b7280;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.lang-switch a:hover {
+  background: #f3f4f6;
+  color: #111827;
+}
+
+.lang-switch a.active {
+  background: #3b82f6;
+  color: #fff;
+}
+
+.lang-divider {
+  color: #d1d5db;
+}
