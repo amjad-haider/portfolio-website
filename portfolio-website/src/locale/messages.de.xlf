@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en" trgLang="de">
+  <file id="ngi18n" original="ng.template">
+    <unit id="meta.title">
+      <notes>
+        <note category="location">src/app/app.ts:22</note>
+      </notes>
+      <segment>
+        <source>👋 Amjads Portfolio - Robotics &amp; ML Engineer</source>
+        <target>👋 Amjads Portfolio – Robotik- &amp; ML-Ingenieur</target>
+      </segment>
+    </unit>
+    <unit id="meta.description">
+      <notes>
+        <note category="location">src/app/app.ts:25</note>
+      </notes>
+      <segment>
+        <source>Amjad Haider — Robotics &amp; Machine Learning Engineer. Master&apos;s in Commercial Vehicle Technology. Experience at Volkswagen Group, RPTU Kaiserslautern. Autonomous Driving, Computer Vision.</source>
+        <target>Amjad Haider – Robotik- und Machine-Learning-Ingenieur. Master in Nutzfahrzeugtechnik. Erfahrung bei der Volkswagen Group und der RPTU Kaiserslautern. Autonomes Fahren, Computer Vision.</target>
+      </segment>
+    </unit>
+    <unit id="cert.heading">
+      <notes>
+        <note category="location">src/app/components/certifications/certifications.html:2,4</note>
+      </notes>
+      <segment>
+        <source>Certifications</source>
+        <target>Zertifikate</target>
+      </segment>
+    </unit>
+    <unit id="cert.logoAlt">
+      <notes>
+        <note category="location">src/app/components/certifications/certifications.html:8</note>
+      </notes>
+      <segment>
+        <source><ph id="0" equiv="INTERPOLATION" disp="{{ cert.issuer }}"/> logo</source>
+        <target>Logo <ph id="0" equiv="INTERPOLATION" disp="{{ cert.issuer }}"/></target>
+      </segment>
+    </unit>
+    <unit id="cert.verify">
+      <notes>
+        <note category="location">src/app/components/certifications/certifications.html:22,23</note>
+      </notes>
+      <segment>
+        <source>Verify Certificate</source>
+        <target>Zertifikat prüfen</target>
+      </segment>
+    </unit>
+    <unit id="cert.1.date">
+      <notes>
+        <note category="location">src/app/components/certifications/certifications.ts:17</note>
+      </notes>
+      <segment>
+        <source>Aug 2026</source>
+        <target>Aug. 2026</target>
+      </segment>
+    </unit>
+    <unit id="cert.1.description">
+      <notes>
+        <note category="location">src/app/components/certifications/certifications.ts:19</note>
+      </notes>
+      <segment>
+        <source>German Language Course for Professionals B2 at Volkshochschule Kaiserslautern</source>
+        <target>Berufssprachkurs Deutsch B2 an der Volkshochschule Kaiserslautern</target>
+      </segment>
+    </unit>
+    <unit id="cert.2.date">
+      <notes>
+        <note category="location">src/app/components/certifications/certifications.ts:25</note>
+      </notes>
+      <segment>
+        <source>Aug 2026 · Credential ID 6952D3D552C19422</source>
+        <target>Aug. 2026 · Credential-ID 6952D3D552C19422</target>
+      </segment>
+    </unit>
+    <unit id="cert.2.description">
+      <notes>
+        <note category="location">src/app/components/certifications/certifications.ts:27</note>
+      </notes>
+      <segment>
+        <source>Designing and building AI applications and agents on Azure AI services.</source>
+        <target>Konzeption und Entwicklung von KI-Anwendungen und KI-Agenten mit Azure AI Services.</target>
+      </segment>
+    </unit>
+    <unit id="edu.heading">
+      <notes>
+        <note category="location">src/app/components/education/education.html:2,4</note>
+      </notes>
+      <segment>
+        <source>My Journey</source>
+        <target>Mein Werdegang</target>
+      </segment>
+    </unit>
+    <unit id="edu.logoAlt">
+      <notes>
+        <note category="location">src/app/components/education/education.html:13</note>
+      </notes>
+      <segment>
+        <source><ph id="0" equiv="INTERPOLATION" disp="{{ item.title }}"/> logo</source>
+        <target>Logo <ph id="0" equiv="INTERPOLATION" disp="{{ item.title }}"/></target>
+      </segment>
+    </unit>
+    <unit id="edu.focus">
+      <notes>
+        <note category="location">src/app/components/education/education.html:18,19</note>
+      </notes>
+      <segment>
+        <source>🛠️ Core Technical Focus</source>
+        <target>🛠️ Technische Schwerpunkte</target>
+      </segment>
+    </unit>
+    <unit id="edu.1.subtitle">
+      <notes>
+        <note category="location">src/app/components/education/education.ts:24</note>
+      </notes>
+      <segment>
+        <source>M.Sc in Commercial Vehicle Technology</source>
+        <target>M.Sc. Nutzfahrzeugtechnik</target>
+      </segment>
+    </unit>
+    <unit id="edu.1.details.1">
+      <notes>
+        <note category="location">src/app/components/education/education.ts:28</note>
+      </notes>
+      <segment>
+        <source>&lt;strong&gt;Autonomous Mobile Robots&lt;/strong&gt;: Actively engaged in research and integration of Robots including aStrider and AutoBus at the university.</source>
+        <target>&lt;strong&gt;Autonome mobile Roboter&lt;/strong&gt;: Aktive Mitarbeit an Forschung und Integration von Robotern an der Universität, u. a. aStrider und AutoBus.</target>
+      </segment>
+    </unit>
+    <unit id="edu.1.details.2">
+      <notes>
+        <note category="location">src/app/components/education/education.ts:29</note>
+      </notes>
+      <segment>
+        <source>&lt;strong&gt;Robot Kinematics &amp; Dynamics : Development of Arm Manipulator Robots(Braccio)</source>
+        <target>&lt;strong&gt;Roboterkinematik &amp; -dynamik&lt;/strong&gt;: Entwicklung von Roboterarmen (Braccio).</target>
+      </segment>
+    </unit>
+    <unit id="edu.1.details.3">
+      <notes>
+        <note category="location">src/app/components/education/education.ts:30</note>
+      </notes>
+      <segment>
+        <source>&lt;strong&gt;Computer Vision &amp; Perception : Using Google Mediapipe for Landmark detection and tracking.</source>
+        <target>&lt;strong&gt;Computer Vision &amp; Wahrnehmung&lt;/strong&gt;: Landmarkenerkennung und -verfolgung mit Google MediaPipe.</target>
+      </segment>
+    </unit>
+    <unit id="edu.1.details.4">
+      <notes>
+        <note category="location">src/app/components/education/education.ts:31</note>
+      </notes>
+      <segment>
+        <source>&lt;strong&gt;Control Theory&lt;/strong&gt;: Implementation of PID, MPC and State-Space Controllers.</source>
+        <target>&lt;strong&gt;Regelungstechnik&lt;/strong&gt;: Implementierung von PID-, MPC- und Zustandsraumreglern.</target>
+      </segment>
+    </unit>
+    <unit id="edu.2.subtitle">
+      <notes>
+        <note category="location">src/app/components/education/education.ts:37</note>
+      </notes>
+      <segment>
+        <source>B.Tech in Mechanical Engineering</source>
+        <target>B.Tech. Maschinenbau</target>
+      </segment>
+    </unit>
+    <unit id="edu.2.details.1">
+      <notes>
+        <note category="location">src/app/components/education/education.ts:41</note>
+      </notes>
+      <segment>
+        <source>Engineering Mehcanics and Strength of Materials</source>
+        <target>Technische Mechanik und Festigkeitslehre</target>
+      </segment>
+    </unit>
+    <unit id="edu.2.details.2">
+      <notes>
+        <note category="location">src/app/components/education/education.ts:42</note>
+      </notes>
+      <segment>
+        <source>Theory of Machines and Mechanisms</source>
+        <target>Maschinen- und Getriebelehre</target>
+      </segment>
+    </unit>
+    <unit id="edu.2.details.3">
+      <notes>
+        <note category="location">src/app/components/education/education.ts:43</note>
+      </notes>
+      <segment>
+        <source>Control Systems</source>
+        <target>Regelungstechnik</target>
+      </segment>
+    </unit>
+    <unit id="edu.2.details.4">
+      <notes>
+        <note category="location">src/app/components/education/education.ts:44</note>
+      </notes>
+      <segment>
+        <source>Fluid Mechanics and Heat Transfer</source>
+        <target>Strömungsmechanik und Wärmeübertragung</target>
+      </segment>
+    </unit>
+    <unit id="intro.greeting">
+      <notes>
+        <note category="location">src/app/components/intro/intro.html:3,4</note>
+      </notes>
+      <segment>
+        <source>Hi, I&apos;m <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span class=&quot;highlight&quot;&gt;" dispEnd="&lt;/span&gt;">Amjad Haider</pc></source>
+        <target>Hallo, ich bin <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span class=&quot;highlight&quot;&gt;" dispEnd="&lt;/span&gt;">Amjad Haider</pc></target>
+      </segment>
+    </unit>
+    <unit id="intro.text">
+      <notes>
+        <note category="location">src/app/components/intro/intro.html:4,9</note>
+      </notes>
+      <segment>
+        <source>I am a Master&apos;s Graduate (Commercial Vehicle Technology) from the University of Kaiserslautern-Landau. My interests include research in Machine Learning, Large Language Models(LLMs) aligned in the field of Autonomous Driving, Robotics and Computer Vision. The area of Neural Network Model Compression has been the topic of my master thesis research. Outside my work, I enjoy reading thrillers and play badminton. </source>
+        <target>Ich habe meinen Master in Nutzfahrzeugtechnik an der RPTU Kaiserslautern-Landau abgeschlossen. Meine Interessen liegen in der Forschung zu Machine Learning und Large Language Models (LLMs) in den Bereichen autonomes Fahren, Robotik und Computer Vision. In meiner Masterarbeit habe ich mich mit der Kompression neuronaler Netze beschäftigt. In meiner Freizeit lese ich gerne Thriller und spiele Badminton.</target>
+      </segment>
+    </unit>
+    <unit id="proj.heading">
+      <notes>
+        <note category="location">src/app/components/projects/projects.html:2,4</note>
+      </notes>
+      <segment>
+        <source>Projects</source>
+        <target>Projekte</target>
+      </segment>
+    </unit>
+    <unit id="proj.imageAlt">
+      <notes>
+        <note category="location">src/app/components/projects/projects.html:7</note>
+      </notes>
+      <segment>
+        <source>Image for <ph id="0" equiv="INTERPOLATION" disp="{{ project.title }}"/></source>
+        <target>Bild zu <ph id="0" equiv="INTERPOLATION" disp="{{ project.title }}"/></target>
+      </segment>
+    </unit>
+    <unit id="proj.code">
+      <notes>
+        <note category="location">src/app/components/projects/projects.html:22,24</note>
+      </notes>
+      <segment>
+        <source>Code (GitHub)</source>
+        <target>Code (GitHub)</target>
+      </segment>
+    </unit>
+    <unit id="proj.demo">
+      <notes>
+        <note category="location">src/app/components/projects/projects.html:26,28</note>
+      </notes>
+      <segment>
+        <source>Live Demo</source>
+        <target>Live-Demo</target>
+      </segment>
+    </unit>
+    <unit id="proj.1.title">
+      <notes>
+        <note category="location">src/app/components/projects/projects.ts:18</note>
+      </notes>
+      <segment>
+        <source>Autonomous Factory Automation System</source>
+        <target>Autonomes Fabrikautomatisierungssystem</target>
+      </segment>
+    </unit>
+    <unit id="proj.1.description">
+      <notes>
+        <note category="location">src/app/components/projects/projects.ts:20</note>
+      </notes>
+      <segment>
+        <source>Designed and simulated a complete industrial pipeline in Webots involving synchronized mobile robots and robotic arms for end-to-end material handling.</source>
+        <target>Entwurf und Simulation einer vollständigen Industrieanlage in Webots mit synchronisierten mobilen Robotern und Roboterarmen für durchgängiges Materialhandling.</target>
+      </segment>
+    </unit>
+    <unit id="proj.2.title">
+      <notes>
+        <note category="location">src/app/components/projects/projects.ts:27</note>
+      </notes>
+      <segment>
+        <source>C++ Pathfinding Algorithm Visualizer</source>
+        <target>C++-Visualisierung von Pfadfindungsalgorithmen</target>
+      </segment>
+    </unit>
+    <unit id="proj.2.description">
+      <notes>
+        <note category="location">src/app/components/projects/projects.ts:28</note>
+      </notes>
+      <segment>
+        <source>Implemented Dijkstra&apos;s and A* search algorithms in C++ to find the shortest path in a grid. Focus on performance and algorithm complexity.</source>
+        <target>Implementierung der Suchalgorithmen Dijkstra und A* in C++ zur Bestimmung des kürzesten Wegs in einem Raster, mit Fokus auf Performance und Algorithmenkomplexität.</target>
+      </segment>
+    </unit>
+    <unit id="pub.heading">
+      <notes>
+        <note category="location">src/app/components/publications/publications.html:2,4</note>
+      </notes>
+      <segment>
+        <source>Publications</source>
+        <target>Publikationen</target>
+      </segment>
+    </unit>
+    <unit id="pub.view">
+      <notes>
+        <note category="location">src/app/components/publications/publications.html:24,26</note>
+      </notes>
+      <segment>
+        <source>View Publication</source>
+        <target>Publikation ansehen</target>
+      </segment>
+    </unit>
+    <unit id="nav.toggle">
+      <notes>
+        <note category="location">src/app/components/sidebar/sidebar.html:1</note>
+      </notes>
+      <segment>
+        <source>Toggle navigation</source>
+        <target>Navigation ein-/ausblenden</target>
+      </segment>
+    </unit>
+    <unit id="nav.cv">
+      <notes>
+        <note category="location">src/app/components/sidebar/sidebar.html:44,45</note>
+      </notes>
+      <segment>
+        <source>CV</source>
+        <target>Lebenslauf</target>
+      </segment>
+    </unit>
+    <unit id="nav.intro">
+      <notes>
+        <note category="location">src/app/components/sidebar/sidebar.html:71,73</note>
+      </notes>
+      <segment>
+        <source>Introduction</source>
+        <target>Über mich</target>
+      </segment>
+    </unit>
+    <unit id="nav.experience">
+      <notes>
+        <note category="location">src/app/components/sidebar/sidebar.html:74,76</note>
+      </notes>
+      <segment>
+        <source>Experience</source>
+        <target>Berufserfahrung</target>
+      </segment>
+    </unit>
+    <unit id="nav.projects">
+      <notes>
+        <note category="location">src/app/components/sidebar/sidebar.html:80,82</note>
+      </notes>
+      <segment>
+        <source>Projects</source>
+        <target>Projekte</target>
+      </segment>
+    </unit>
+    <unit id="nav.education">
+      <notes>
+        <note category="location">src/app/components/sidebar/sidebar.html:83,85</note>
+      </notes>
+      <segment>
+        <source>Education</source>
+        <target>Ausbildung</target>
+      </segment>
+    </unit>
+    <unit id="nav.certifications">
+      <notes>
+        <note category="location">src/app/components/sidebar/sidebar.html:86,88</note>
+      </notes>
+      <segment>
+        <source>Certifications</source>
+        <target>Zertifikate</target>
+      </segment>
+    </unit>
+    <unit id="nav.publications">
+      <notes>
+        <note category="location">src/app/components/sidebar/sidebar.html:89,92</note>
+      </notes>
+      <segment>
+        <source>Publications</source>
+        <target>Publikationen</target>
+      </segment>
+    </unit>
+    <unit id="profile.title">
+      <notes>
+        <note category="location">src/app/components/sidebar/sidebar.ts:14</note>
+      </notes>
+      <segment>
+        <source>Robotics Developer</source>
+        <target>Robotik-Entwickler</target>
+      </segment>
+    </unit>
+    <unit id="profile.affiliation">
+      <notes>
+        <note category="location">src/app/components/sidebar/sidebar.ts:15</note>
+      </notes>
+      <segment>
+        <source>University of Kaiserslautern-Landau</source>
+        <target>RPTU Kaiserslautern-Landau</target>
+      </segment>
+    </unit>
+    <unit id="profile.cvUrl">
+      <notes>
+        <note category="location">src/app/components/sidebar/sidebar.ts:18</note>
+      </notes>
+      <segment>
+        <source>/assets/CV.pdf</source>
+        <target>/assets/Lebenslauf_Haider_Amjad.pdf</target>
+      </segment>
+    </unit>
+    <unit id="exp.heading">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.html:2,4</note>
+      </notes>
+      <segment>
+        <source>My Professional Journey</source>
+        <target>Mein beruflicher Werdegang</target>
+      </segment>
+    </unit>
+    <unit id="common.logoAlt">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.html:9</note>
+      </notes>
+      <segment>
+        <source><ph id="0" equiv="INTERPOLATION" disp="{{ job.company }}"/> logo</source>
+        <target>Logo <ph id="0" equiv="INTERPOLATION" disp="{{ job.company }}"/></target>
+      </segment>
+    </unit>
+    <unit id="common.techStack">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.html:25,26</note>
+      </notes>
+      <segment>
+        <source>Tech Stack:</source>
+        <target>Tech-Stack:</target>
+      </segment>
+    </unit>
+    <unit id="exp.1.title">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:17</note>
+      </notes>
+      <segment>
+        <source>Freelance Embedded Software Engineer</source>
+        <target>Freiberuflicher Embedded-Softwareentwickler</target>
+      </segment>
+    </unit>
+    <unit id="exp.1.duration">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:21</note>
+      </notes>
+      <segment>
+        <source>Feb 2026 - Jul 2026</source>
+        <target>Feb. 2026 – Juli 2026</target>
+      </segment>
+    </unit>
+    <unit id="exp.1.tasks.1">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:24</note>
+      </notes>
+      <segment>
+        <source>Built a TCP proxy server in Node.js for protocol parsing of GPS tracker ECUs.</source>
+        <target>Entwicklung eines TCP-Proxy-Servers in Node.js zum Parsen der Protokolle von GPS-Tracker-Steuergeräten.</target>
+      </segment>
+    </unit>
+    <unit id="exp.1.tasks.2">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:25</note>
+      </notes>
+      <segment>
+        <source>Implemented CRC-validated communication parsers (CRC-16/MCRF4xx and XOR) for embedded systems.</source>
+        <target>Implementierung CRC-validierter Kommunikationsparser (CRC-16/MCRF4xx und XOR) für Embedded-Systeme.</target>
+      </segment>
+    </unit>
+    <unit id="exp.1.tasks.3">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:26</note>
+      </notes>
+      <segment>
+        <source>Delivered a real-time telemetry pipeline on the Thingsboard IoT platform with an MQTT uplink decoder.</source>
+        <target>Aufbau einer Echtzeit-Telemetrie-Pipeline auf der IoT-Plattform Thingsboard mit MQTT-Uplink-Decoder.</target>
+      </segment>
+    </unit>
+    <unit id="exp.1.tasks.4">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:27</note>
+      </notes>
+      <segment>
+        <source>Managed the SQL database for storage, querying and analysis of telemetry data.</source>
+        <target>Betreuung der SQL-Datenbank zur Speicherung, Abfrage und Analyse der Telemetriedaten.</target>
+      </segment>
+    </unit>
+    <unit id="exp.2.title">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:32</note>
+      </notes>
+      <segment>
+        <source>Research Assistant</source>
+        <target>Wissenschaftliche Hilfskraft</target>
+      </segment>
+    </unit>
+    <unit id="exp.2.duration">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:34</note>
+      </notes>
+      <segment>
+        <source>Nov 2024 - Nov 2025</source>
+        <target>Nov. 2024 – Nov. 2025</target>
+      </segment>
+    </unit>
+    <unit id="exp.2.tasks.1">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:37</note>
+      </notes>
+      <segment>
+        <source>Designing and implementing algorithms for motion planning, control, and navigation for robotic manipulators and mobile platforms using Arduino and Micro-ROS</source>
+        <target>Entwurf und Implementierung von Algorithmen für Bewegungsplanung, Regelung und Navigation von Robotermanipulatoren und mobilen Plattformen mit Arduino und Micro-ROS.</target>
+      </segment>
+    </unit>
+    <unit id="exp.2.tasks.2">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:38</note>
+      </notes>
+      <segment>
+        <source>Developing and validating navigation algorithms (e.g., SLAM) in the Gazebo simulation environment using ROS</source>
+        <target>Entwicklung und Validierung von Navigationsalgorithmen (z. B. SLAM) in der Simulationsumgebung Gazebo mit ROS.</target>
+      </segment>
+    </unit>
+    <unit id="exp.2.tasks.3">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:39</note>
+      </notes>
+      <segment>
+        <source>Supporting the integration of sensors and actuators into the existing ROS environment</source>
+        <target>Unterstützung bei der Integration von Sensoren und Aktoren in die bestehende ROS-Umgebung.</target>
+      </segment>
+    </unit>
+    <unit id="exp.3.title">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:44</note>
+      </notes>
+      <segment>
+        <source>Research Assistant</source>
+        <target>Wissenschaftliche Hilfskraft</target>
+      </segment>
+    </unit>
+    <unit id="exp.3.duration">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:46</note>
+      </notes>
+      <segment>
+        <source>May 2024 - Nov 2025</source>
+        <target>Mai 2024 – Nov. 2025</target>
+      </segment>
+    </unit>
+    <unit id="exp.3.tasks.1">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:49</note>
+      </notes>
+      <segment>
+        <source>Programming and connection tasks in the context of the Internet of Things, including setting up a network with ESP32 and Raspberry Pi, implementing protocols such as MQTT, and transferring data to an IoT platform with visualisation and analysis.</source>
+        <target>Programmier- und Vernetzungsaufgaben im Internet of Things, u. a. Aufbau eines Netzwerks mit ESP32 und Raspberry Pi, Implementierung von Protokollen wie MQTT sowie Datenübertragung an eine IoT-Plattform mit Visualisierung und Analyse.</target>
+      </segment>
+    </unit>
+    <unit id="exp.3.tasks.2">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:50</note>
+      </notes>
+      <segment>
+        <source>Development of a React application and hosting using Docker in combination with other Docker services.</source>
+        <target>Entwicklung einer React-Anwendung und Hosting mit Docker im Zusammenspiel mit weiteren Docker-Diensten.</target>
+      </segment>
+    </unit>
+    <unit id="exp.3.tasks.3">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:51</note>
+      </notes>
+      <segment>
+        <source>Collaboration on a knowledge graph project in combination with SysML models using LLMs and implementation with Python (Django) and JavaScript.</source>
+        <target>Mitarbeit an einem Knowledge-Graph-Projekt mit SysML-Modellen und LLMs, umgesetzt mit Python (Django) und JavaScript.</target>
+      </segment>
+    </unit>
+    <unit id="exp.4.title">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:56</note>
+      </notes>
+      <segment>
+        <source>Intern</source>
+        <target>Praktikant</target>
+      </segment>
+    </unit>
+    <unit id="exp.4.duration">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:58</note>
+      </notes>
+      <segment>
+        <source>May 2024 - August 2024</source>
+        <target>Mai 2024 – Aug. 2024</target>
+      </segment>
+    </unit>
+    <unit id="exp.4.tasks.1">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:61</note>
+      </notes>
+      <segment>
+        <source>Processed data traces and developed automated methods on an in‑vehicle Linux computer.</source>
+        <target>Verarbeitung von Datentraces und Entwicklung automatisierter Methoden auf einem fahrzeuginternen Linux-Rechner.</target>
+      </segment>
+    </unit>
+    <unit id="exp.4.tasks.2">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:62</note>
+      </notes>
+      <segment>
+        <source>Developed user interfaces with PySide6 to deliver simple, effective solutions.</source>
+        <target>Entwicklung von Benutzeroberflächen mit PySide6 für einfache, effektive Lösungen.</target>
+      </segment>
+    </unit>
+    <unit id="exp.4.tasks.3">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:63</note>
+      </notes>
+      <segment>
+        <source>Conceptualized and implemented research methodologies in Python.</source>
+        <target>Konzeption und Umsetzung von Forschungsmethoden in Python.</target>
+      </segment>
+    </unit>
+    <unit id="exp.5.title">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:68</note>
+      </notes>
+      <segment>
+        <source>Intern</source>
+        <target>Praktikant</target>
+      </segment>
+    </unit>
+    <unit id="exp.5.duration">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:70</note>
+      </notes>
+      <segment>
+        <source>November 2023 - April 2024</source>
+        <target>Nov. 2023 – Apr. 2024</target>
+      </segment>
+    </unit>
+    <unit id="exp.5.tasks.1">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:73</note>
+      </notes>
+      <segment>
+        <source>Contributing hands-on expertise to enhance safety and efficiency in autonomous driving.</source>
+        <target>Praktische Mitarbeit an der Verbesserung von Sicherheit und Effizienz beim autonomen Fahren.</target>
+      </segment>
+    </unit>
+    <unit id="exp.5.tasks.2">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:74</note>
+      </notes>
+      <segment>
+        <source>Researched ISO 34503:2023 standards for autonomous safety.</source>
+        <target>Recherche zur Norm ISO 34503:2023 für die Sicherheit autonomer Fahrfunktionen.</target>
+      </segment>
+    </unit>
+    <unit id="exp.5.tasks.3">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:75</note>
+      </notes>
+      <segment>
+        <source>Analyzing and optimizing operational design domain strategies .</source>
+        <target>Analyse und Optimierung von Strategien zur Operational Design Domain (ODD).</target>
+      </segment>
+    </unit>
+    <unit id="exp.5.tasks.4">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:76</note>
+      </notes>
+      <segment>
+        <source>Worked with a team of 18 members consisting of PhD researchers and Developers.</source>
+        <target>Zusammenarbeit in einem 18-köpfigen Team aus Doktoranden und Entwicklern.</target>
+      </segment>
+    </unit>
+    <unit id="exp.6.title">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:81</note>
+      </notes>
+      <segment>
+        <source>Research Assistant</source>
+        <target>Wissenschaftliche Hilfskraft</target>
+      </segment>
+    </unit>
+    <unit id="exp.6.duration">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:83</note>
+      </notes>
+      <segment>
+        <source>February 2023 - October 2023</source>
+        <target>Feb. 2023 – Okt. 2023</target>
+      </segment>
+    </unit>
+    <unit id="exp.6.tasks.1">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:86</note>
+      </notes>
+      <segment>
+        <source>Developed Python scripts to stream real-time telemetry data via MQTT for remote monitoring</source>
+        <target>Entwicklung von Python-Skripten zum Streamen von Echtzeit-Telemetriedaten über MQTT für die Fernüberwachung.</target>
+      </segment>
+    </unit>
+    <unit id="exp.6.tasks.2">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:87</note>
+      </notes>
+      <segment>
+        <source>Built data dashboards in Grafana using InfluxDB to analyze sensor performance and system health</source>
+        <target>Aufbau von Grafana-Dashboards mit InfluxDB zur Analyse von Sensorleistung und Systemzustand.</target>
+      </segment>
+    </unit>
+    <unit id="exp.6.tasks.3">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:88</note>
+      </notes>
+      <segment>
+        <source>Developed and tested low-level logic  with the help of Betaflight for real-time motor synchronization and stabilization on 4-motor BLDC UAV systems.</source>
+        <target>Entwicklung und Test von Low-Level-Logik mit Betaflight zur Echtzeit-Motorsynchronisation und Stabilisierung von UAV-Systemen mit vier BLDC-Motoren.</target>
+      </segment>
+    </unit>
+    <unit id="exp.7.title">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:93</note>
+      </notes>
+      <segment>
+        <source>Research Assistant</source>
+        <target>Wissenschaftliche Hilfskraft</target>
+      </segment>
+    </unit>
+    <unit id="exp.7.duration">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:95</note>
+      </notes>
+      <segment>
+        <source>February 2023 - October 2023</source>
+        <target>Feb. 2023 – Okt. 2023</target>
+      </segment>
+    </unit>
+    <unit id="exp.7.tasks.1">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:98</note>
+      </notes>
+      <segment>
+        <source>Developement of Graph-based SLAM and Kalman Filter (EKF/UKF) modules in C++ for the AutoBus and aStrider autonomous platforms</source>
+        <target>Entwicklung von graphbasierten SLAM- und Kalman-Filter-Modulen (EKF/UKF) in C++ für die autonomen Plattformen AutoBus und aStrider.</target>
+      </segment>
+    </unit>
+    <unit id="exp.7.tasks.2">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:99</note>
+      </notes>
+      <segment>
+        <source>Fused IMU and GPS data for real-time localization and state estimation in pedestrian zones.</source>
+        <target>Fusion von IMU- und GPS-Daten zur Echtzeit-Lokalisierung und Zustandsschätzung in Fußgängerzonen.</target>
+      </segment>
+    </unit>
+    <unit id="exp.7.tasks.3">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:100</note>
+      </notes>
+      <segment>
+        <source>Built and integrated ROS sensor interfaces and navigation nodes together with Behavior Trees, focusing on low-latency data synchronization.</source>
+        <target>Aufbau und Integration von ROS-Sensorschnittstellen und Navigationsknoten mit Behavior Trees, mit Fokus auf latenzarme Datensynchronisation.</target>
+      </segment>
+    </unit>
+    <unit id="exp.8.title">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:105</note>
+      </notes>
+      <segment>
+        <source>Senior Software Engineer</source>
+        <target>Senior Software Engineer</target>
+      </segment>
+    </unit>
+    <unit id="exp.8.duration">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:107</note>
+      </notes>
+      <segment>
+        <source>June 2018 - August 2021</source>
+        <target>Juni 2018 – Aug. 2021</target>
+      </segment>
+    </unit>
+    <unit id="exp.8.tasks.1">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:110</note>
+      </notes>
+      <segment>
+        <source>Creation of automation scripts (Python) for Finite Element Analysis and dashboards, developed with Python and Qt Framework</source>
+        <target>Erstellung von Automatisierungsskripten (Python) für Finite-Elemente-Analysen sowie Dashboards mit Python und dem Qt-Framework.</target>
+      </segment>
+    </unit>
+    <unit id="exp.8.tasks.2">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:111</note>
+      </notes>
+      <segment>
+        <source>Optimized the mid-mesh generation process within ANSA, enhancing efficiency and accuracy for complex geometric simulations.</source>
+        <target>Optimierung der Mittelflächen-Vernetzung (Mid-Mesh) in ANSA für mehr Effizienz und Genauigkeit bei komplexen geometrischen Simulationen.</target>
+      </segment>
+    </unit>
+    <unit id="exp.8.tasks.3">
+      <notes>
+        <note category="location">src/app/components/work-experience/work-experience.ts:112</note>
+      </notes>
+      <segment>
+        <source>Implementation and debugging of complex software modules.</source>
+        <target>Implementierung und Debugging komplexer Softwaremodule.</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>
