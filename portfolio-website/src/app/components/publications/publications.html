@@ -1,5 +1,5 @@
 <section class="publications-section">
-  <h2><mat-icon color="primary">description</mat-icon> Publications</h2>
+  <h2><mat-icon color="primary">description</mat-icon> <span i18n="@@pub.heading">Publications</span></h2>
   
   <div class="publication-list">
     <mat-card *ngFor="let pub of publications" class="publication-card">
@@ -21,7 +21,7 @@
       
       <mat-card-actions>
         <a [href]="pub.link" target="_blank" mat-button color="accent">
-          <mat-icon>visibility</mat-icon> View Publication
+          <mat-icon>visibility</mat-icon> <span i18n="@@pub.view">View Publication</span>
         </a>
       </mat-card-actions>
     </mat-card>

@@ -1,4 +1,4 @@
-<button class="menu-toggle" (click)="toggleMenu()" aria-label="Toggle navigation">
+<button class="menu-toggle" (click)="toggleMenu()" aria-label="Toggle navigation" i18n-aria-label="@@nav.toggle">
   <span class="material-icons">{{ isMenuOpen ? 'close' : 'menu' }}</span>
 </button>
 
@@ -41,7 +41,7 @@
             <line x1="16" y1="17" x2="8" y2="17"/>
             <polyline points="10,9 9,9 8,9"/>
           </svg>
-          CV
+          <ng-container i18n="@@nav.cv">CV</ng-container>
         </a>
       </div>
       
@@ -68,25 +68,25 @@
   </div>
   <nav class="nav-links">
     <a (click)="scrollTo('intro')" class="nav-item">
-      <span class="material-icons">person</span> Introduction
+      <span class="material-icons">person</span> <span i18n="@@nav.intro">Introduction</span>
     </a>
     <a (click)="scrollTo('work-experience')" class="nav-item">
-      <span class="material-icons">work</span> Experience
+      <span class="material-icons">work</span> <span i18n="@@nav.experience">Experience</span>
     </a>
     <!-- <a (click)="scrollTo('skills')" class="nav-item">
       <span class="material-icons">psychology</span> Skills
     </a> -->
     <a (click)="scrollTo('projects')" class="nav-item">
-      <span class="material-icons">terminal</span> Projects
+      <span class="material-icons">terminal</span> <span i18n="@@nav.projects">Projects</span>
     </a>
     <a (click)="scrollTo('education')" class="nav-item">
-      <span class="material-icons">school</span> Education
+      <span class="material-icons">school</span> <span i18n="@@nav.education">Education</span>
     </a>
     <a (click)="scrollTo('certifications')" class="nav-item">
-      <span class="material-icons">workspace_premium</span> Certifications
+      <span class="material-icons">workspace_premium</span> <span i18n="@@nav.certifications">Certifications</span>
     </a>
     <a (click)="scrollTo('publications')" class="nav-item" role="button">
-      <span class="material-icons">menu_book</span> Publications
+      <span class="material-icons">menu_book</span> <span i18n="@@nav.publications">Publications</span>
     </a>
   </nav>
 </div>

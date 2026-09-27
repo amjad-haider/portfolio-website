@@ -1,5 +1,5 @@
 <section class="journey-section">
-  <h1>My Journey</h1>
+  <h1 i18n="@@edu.heading">My Journey</h1>
   
   <div class="journey-grid">
     <mat-card *ngFor="let item of journeyItems" class="journey-card">
@@ -10,12 +10,12 @@
       </div>
 
       <div class="logo-area">
-        <img [src]="item.logoUrl" alt="{{ item.title }} logo" class="item-logo">
+        <img [src]="item.logoUrl" alt="{{ item.title }} logo" i18n-alt="@@edu.logoAlt" class="item-logo">
       </div>
 
       <mat-card-content class="details-content">
         <ul>
-          🛠️ Core Technical Focus
+          <span i18n="@@edu.focus">🛠️ Core Technical Focus</span>
           <li *ngFor="let detail of item.details" [innerHTML]="detail">
           </li>
         </ul>

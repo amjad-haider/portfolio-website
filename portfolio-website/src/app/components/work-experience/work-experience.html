@@ -1,12 +1,12 @@
 <section class="experience-list">
-  <h2><mat-icon color="primary">work</mat-icon> My Professional Journey</h2>
+  <h2><mat-icon color="primary">work</mat-icon> <span i18n="@@exp.heading">My Professional Journey</span></h2>
 
   <mat-card *ngFor="let job of experience" class="job-card">
     <div class="card-content-wrapper">
       
       <div class="company-info">
         @if (job.logoUrl) {
-          <img [src]="job.logoUrl" alt="{{ job.company }} logo" class="company-logo" [class.logo-wide]="job.wideLogo">
+          <img [src]="job.logoUrl" alt="{{ job.company }} logo" i18n-alt="@@common.logoAlt" class="company-logo" [class.logo-wide]="job.wideLogo">
         } @else {
           <div class="company-logo logo-badge">{{ job.logoText }}</div>
         }
@@ -22,7 +22,7 @@
       <div class="job-details">
         
         <div class="tech-stack">
-          <span class="tech-label">Tech Stack:</span>
+          <span class="tech-label" i18n="@@common.techStack">Tech Stack:</span>
           <span *ngFor="let tech of job.techStack" class="tech-tag">{{ tech }}</span>
         </div>
 

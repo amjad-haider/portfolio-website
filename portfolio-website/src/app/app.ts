@@ -1,4 +1,5 @@
-import { Component, signal } from '@angular/core';
+import { Component, inject, signal } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 import { SidebarComponent } from './components/sidebar/sidebar';
 import { Intro } from './components/intro/intro';
 import { WorkExperience } from './components/work-experience/work-experience'
@@ -15,4 +16,13 @@ import { Certifications } from './components/certifications/certifications'
 })
 export class App {
   protected readonly title = signal('portfolio-website');
+
+  constructor() {
+    // index.html is not translated, so set the per-language title and description here
+    inject(Title).setTitle($localize`:@@meta.title:👋 Amjads Portfolio - Robotics & ML Engineer`);
+    inject(Meta).updateTag({
+      name: 'description',
+      content: $localize`:@@meta.description:Amjad Haider — Robotics & Machine Learning Engineer. Master's in Commercial Vehicle Technology. Experience at Volkswagen Group, RPTU Kaiserslautern. Autonomous Driving, Computer Vision.`
+    });
+  }
 }

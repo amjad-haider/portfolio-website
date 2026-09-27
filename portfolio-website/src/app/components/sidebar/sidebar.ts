@@ -11,11 +11,11 @@ export class SidebarComponent {
   isMenuOpen = false;
   profileData = {
     name: 'Amjad Haider',
-    title: 'Robotics Developer',
-    affiliation: 'University of Kaiserslautern-Landau',
+    title: $localize`:@@profile.title:Robotics Developer`,
+    affiliation: $localize`:@@profile.affiliation:University of Kaiserslautern-Landau`,
     email: 'amjad.haider@gmx.de',
-    profileImage: 'assets/profile.jpg',
-    cvUrl: 'assets/CV.pdf',
+    profileImage: '/assets/profile.jpg',
+    cvUrl: $localize`:@@profile.cvUrl:/assets/CV.pdf`, // German site links the German CV
     socialLinks: {
       linkedin: 'https://www.linkedin.com/in/amjadhaider/',
       github: 'https://github.com/amjad-haider',
