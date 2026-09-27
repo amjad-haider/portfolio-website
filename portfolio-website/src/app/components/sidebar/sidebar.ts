@@ -13,7 +13,7 @@ export class SidebarComponent {
   isGerman = inject(LOCALE_ID).startsWith('de');
   profileData = {
     name: 'Amjad Haider',
-    title: $localize`:@@profile.title:Robotics Developer`,
+    title: $localize`:@@profile.title:Software Engineer`,
     affiliation: $localize`:@@profile.affiliation:University of Kaiserslautern-Landau`,
     email: 'amjad.haider@gmx.de',
     profileImage: '/assets/profile.jpg',

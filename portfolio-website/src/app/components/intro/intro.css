@@ -21,11 +21,42 @@
   color: var(--mat-sys-primary); /* Uses your Material theme primary color */
 }
 
+.intro-content .tagline {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--mat-sys-secondary);
+  margin: -8px 0 24px;
+}
+
 .intro-content .subtitle {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #666;
   line-height: 1.6;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
+}
+
+/* Core technology chips under the intro */
+.core-stack {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.core-stack-label {
+  font-weight: 600;
+  color: #444;
+  margin-right: 4px;
+}
+
+.stack-chip {
+  padding: 4px 12px;
+  border-radius: 16px;
+  background: #e8eaf6;
+  color: #3f51b5;
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 
 /* Highlighted keywords (Robot terminology) */

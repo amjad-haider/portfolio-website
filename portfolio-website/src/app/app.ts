@@ -19,10 +19,10 @@ export class App {
 
   constructor() {
     // index.html is not translated, so set the per-language title and description here
-    inject(Title).setTitle($localize`:@@meta.title:👋 Amjads Portfolio - Robotics & ML Engineer`);
+    inject(Title).setTitle($localize`:@@meta.title:Amjad Haider – Software Engineer | C++, Robotics & Simulation`);
     inject(Meta).updateTag({
       name: 'description',
-      content: $localize`:@@meta.description:Amjad Haider — Robotics & Machine Learning Engineer. Master's in Commercial Vehicle Technology. Experience at Volkswagen Group, RPTU Kaiserslautern. Autonomous Driving, Computer Vision.`
+      content: $localize`:@@meta.description:Amjad Haider – Software Engineer with 4+ years in C++, robotics, simulation, automation and embedded IoT. Experience at Volkswagen, iDTRONIC and RPTU Kaiserslautern-Landau. Published researcher in efficient AI for control.`
     });
   }
 }

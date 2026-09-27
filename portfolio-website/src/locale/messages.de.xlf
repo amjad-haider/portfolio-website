@@ -6,8 +6,8 @@
         <note category="location">src/app/app.ts:22</note>
       </notes>
       <segment>
-        <source>👋 Amjads Portfolio - Robotics &amp; ML Engineer</source>
-        <target>👋 Amjads Portfolio – Robotik- &amp; ML-Ingenieur</target>
+        <source>Amjad Haider – Software Engineer | C++, Robotics &amp; Simulation</source>
+        <target>Amjad Haider – Softwareentwickler | C++, Robotik &amp; Simulation</target>
       </segment>
     </unit>
     <unit id="meta.description">
@@ -15,8 +15,8 @@
         <note category="location">src/app/app.ts:25</note>
       </notes>
       <segment>
-        <source>Amjad Haider — Robotics &amp; Machine Learning Engineer. Master&apos;s in Commercial Vehicle Technology. Experience at Volkswagen Group, RPTU Kaiserslautern. Autonomous Driving, Computer Vision.</source>
-        <target>Amjad Haider – Robotik- und Machine-Learning-Ingenieur. Master in Nutzfahrzeugtechnik. Erfahrung bei der Volkswagen Group und der RPTU Kaiserslautern. Autonomes Fahren, Computer Vision.</target>
+        <source>Amjad Haider – Software Engineer with 4+ years in C++, robotics, simulation, automation and embedded IoT. Experience at Volkswagen, iDTRONIC and RPTU Kaiserslautern-Landau. Published researcher in efficient AI for control.</source>
+        <target>Amjad Haider – Softwareentwickler mit über 4 Jahren Erfahrung in C++, Robotik, Simulation, Automatisierung und Embedded-IoT. Erfahrung bei Volkswagen, iDTRONIC und der RPTU Kaiserslautern-Landau. Forschung zu ressourceneffizienter KI für die Regelungstechnik.</target>
       </segment>
     </unit>
     <unit id="cert.heading">
@@ -208,13 +208,40 @@
         <target>Hallo, ich bin <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span class=&quot;highlight&quot;&gt;" dispEnd="&lt;/span&gt;">Amjad Haider</pc></target>
       </segment>
     </unit>
-    <unit id="intro.text">
+    <unit id="intro.tagline">
       <notes>
-        <note category="location">src/app/components/intro/intro.html:4,9</note>
+        <note category="location">src/app/components/intro/intro.html:4,6</note>
       </notes>
       <segment>
-        <source>I am a Master&apos;s Graduate (Commercial Vehicle Technology) from the University of Kaiserslautern-Landau. My interests include research in Machine Learning, Large Language Models(LLMs) aligned in the field of Autonomous Driving, Robotics and Computer Vision. The area of Neural Network Model Compression has been the topic of my master thesis research. Outside my work, I enjoy reading thrillers and play badminton. </source>
-        <target>Ich habe meinen Master in Nutzfahrzeugtechnik an der RPTU Kaiserslautern-Landau abgeschlossen. Meine Interessen liegen in der Forschung zu Machine Learning und Large Language Models (LLMs) in den Bereichen autonomes Fahren, Robotik und Computer Vision. In meiner Masterarbeit habe ich mich mit der Kompression neuronaler Netze beschäftigt. In meiner Freizeit lese ich gerne Thriller und spiele Badminton.</target>
+        <source>Software Engineer · C++ · Robotics · Simulation · Automation</source>
+        <target>Softwareentwickler · C++ · Robotik · Simulation · Automatisierung</target>
+      </segment>
+    </unit>
+    <unit id="intro.p1">
+      <notes>
+        <note category="location">src/app/components/intro/intro.html:7,10</note>
+      </notes>
+      <segment>
+        <source> I build software for robots, vehicles and embedded systems, with over 4 years of experience across industry and research: C++ perception and sensor-fusion modules for autonomous platforms, engineering tools with Qt, simulation environments in Gazebo and Webots, and Python automation pipelines that have run in production for years. </source>
+        <target>Ich entwickle Software für Roboter, Fahrzeuge und Embedded-Systeme und bringe über 4 Jahre Erfahrung aus Industrie und Forschung mit: C++-Module für Wahrnehmung und Sensorfusion autonomer Plattformen, Engineering-Tools mit Qt, Simulationsumgebungen in Gazebo und Webots sowie Python-Automatisierungspipelines, die jahrelang im Produktiveinsatz liefen.</target>
+      </segment>
+    </unit>
+    <unit id="intro.p3">
+      <notes>
+        <note category="location">src/app/components/intro/intro.html:12,15</note>
+      </notes>
+      <segment>
+        <source> I also do research on efficient AI for control: my Master&apos;s thesis on pruning neural networks for edge devices was graded 1.0, and I have co-authored three papers at international robotics conferences. I am open to roles in software engineering, simulation, automation and research. </source>
+        <target>Außerdem forsche ich zu ressourceneffizienter KI für die Regelungstechnik: Meine Masterarbeit zum Pruning neuronaler Netze für Edge-Geräte wurde mit 1,0 bewertet, und ich bin Mitautor von drei Beiträgen auf internationalen Robotik-Konferenzen. Ich bin offen für Positionen in Softwareentwicklung, Simulation, Automatisierung und Forschung.</target>
+      </segment>
+    </unit>
+    <unit id="intro.stackLabel">
+      <notes>
+        <note category="location">src/app/components/intro/intro.html:18,19</note>
+      </notes>
+      <segment>
+        <source>Core stack</source>
+        <target>Kerntechnologien</target>
       </segment>
     </unit>
     <unit id="proj.heading">
@@ -327,7 +354,7 @@
     </unit>
     <unit id="nav.intro">
       <notes>
-        <note category="location">src/app/components/sidebar/sidebar.html:71,73</note>
+        <note category="location">src/app/components/sidebar/sidebar.html:76,78</note>
       </notes>
       <segment>
         <source>Introduction</source>
@@ -336,7 +363,7 @@
     </unit>
     <unit id="nav.experience">
       <notes>
-        <note category="location">src/app/components/sidebar/sidebar.html:74,76</note>
+        <note category="location">src/app/components/sidebar/sidebar.html:79,81</note>
       </notes>
       <segment>
         <source>Experience</source>
@@ -345,7 +372,7 @@
     </unit>
     <unit id="nav.projects">
       <notes>
-        <note category="location">src/app/components/sidebar/sidebar.html:80,82</note>
+        <note category="location">src/app/components/sidebar/sidebar.html:85,87</note>
       </notes>
       <segment>
         <source>Projects</source>
@@ -354,7 +381,7 @@
     </unit>
     <unit id="nav.education">
       <notes>
-        <note category="location">src/app/components/sidebar/sidebar.html:83,85</note>
+        <note category="location">src/app/components/sidebar/sidebar.html:88,90</note>
       </notes>
       <segment>
         <source>Education</source>
@@ -363,7 +390,7 @@
     </unit>
     <unit id="nav.certifications">
       <notes>
-        <note category="location">src/app/components/sidebar/sidebar.html:86,88</note>
+        <note category="location">src/app/components/sidebar/sidebar.html:91,93</note>
       </notes>
       <segment>
         <source>Certifications</source>
@@ -372,7 +399,7 @@
     </unit>
     <unit id="nav.publications">
       <notes>
-        <note category="location">src/app/components/sidebar/sidebar.html:89,92</note>
+        <note category="location">src/app/components/sidebar/sidebar.html:94,97</note>
       </notes>
       <segment>
         <source>Publications</source>
@@ -381,16 +408,16 @@
     </unit>
     <unit id="profile.title">
       <notes>
-        <note category="location">src/app/components/sidebar/sidebar.ts:14</note>
+        <note category="location">src/app/components/sidebar/sidebar.ts:16</note>
       </notes>
       <segment>
-        <source>Robotics Developer</source>
-        <target>Robotik-Entwickler</target>
+        <source>Software Engineer</source>
+        <target>Softwareentwickler</target>
       </segment>
     </unit>
     <unit id="profile.affiliation">
       <notes>
-        <note category="location">src/app/components/sidebar/sidebar.ts:15</note>
+        <note category="location">src/app/components/sidebar/sidebar.ts:17</note>
       </notes>
       <segment>
         <source>University of Kaiserslautern-Landau</source>
@@ -399,7 +426,7 @@
     </unit>
     <unit id="profile.cvUrl">
       <notes>
-        <note category="location">src/app/components/sidebar/sidebar.ts:18</note>
+        <note category="location">src/app/components/sidebar/sidebar.ts:20</note>
       </notes>
       <segment>
         <source>/assets/CV.pdf</source>

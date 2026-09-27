@@ -1,15 +1,29 @@
 <section id="intro-section" class="section">
   <div class="intro-content">
   <h1 i18n="@@intro.greeting">Hi, I'm <span class="highlight">Amjad Haider</span></h1>
-  <p class="subtitle" i18n="@@intro.text">I am a Master's Graduate (Commercial Vehicle Technology) from the University of Kaiserslautern-Landau.
-    My interests include research in Machine Learning, Large Language Models(LLMs) aligned in the field of Autonomous Driving, Robotics and Computer Vision.
-    The area of Neural Network Model Compression has been the topic of my master thesis research. Outside my work, I enjoy reading thrillers
-    and play badminton.
+  <p class="tagline" i18n="@@intro.tagline">Software Engineer · C++ · Robotics · Simulation · Automation</p>
+
+  <p class="subtitle" i18n="@@intro.p1">
+    I build software for robots, vehicles and embedded systems, with over 4 years of experience across industry and research:
+    C++ perception and sensor-fusion modules for autonomous platforms, engineering tools with Qt, simulation environments
+    in Gazebo and Webots, and Python automation pipelines that have run in production for years.
   </p>
+  <p class="subtitle" i18n="@@intro.p3">
+    I also do research on efficient AI for control: my Master's thesis on pruning neural networks for edge devices was graded 1.0,
+    and I have co-authored three papers at international robotics conferences. I am open to roles in software engineering,
+    simulation, automation and research.
+  </p>
+
+  <div class="core-stack">
+    <span class="core-stack-label" i18n="@@intro.stackLabel">Core stack</span>
+    @for (tech of coreStack; track tech) {
+      <span class="stack-chip">{{ tech }}</span>
+    }
+  </div>
   <!-- <div class="cta-buttons">
       <button mat-raised-button color="primary" (click)="scrollTo('projects')">View My Work</button>
       <button mat-stroked-button color="accent" (click)="scrollTo('contact')">Let's Connect</button>
   </div> -->
 </div>
-  
+
 </section>
