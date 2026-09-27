@@ -35,28 +35,86 @@
   margin-bottom: 16px;
 }
 
-/* Core technology chips under the intro */
+/* Core stack card: technologies grouped by area, with logos */
 .core-stack {
+  margin-top: 32px;
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.core-stack-title {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   gap: 8px;
-  margin-top: 24px;
+  margin: 0 0 20px;
+  font-size: 1.3rem;
+  color: #1f2937;
 }
 
-.core-stack-label {
+.core-stack-title .material-icons {
+  color: var(--mat-sys-primary);
+}
+
+.stack-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px 28px;
+}
+
+.stack-group-name {
+  margin: 0 0 10px;
+  font-size: 0.75rem;
   font-weight: 600;
-  color: #444;
-  margin-right: 4px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #6b7280;
 }
 
-.stack-chip {
-  padding: 4px 12px;
-  border-radius: 16px;
-  background: #e8eaf6;
-  color: #3f51b5;
+.stack-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.stack-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px 6px 8px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #f9fafb;
   font-size: 0.9rem;
   font-weight: 500;
+  color: #374151;
+  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+}
+
+.stack-item:hover {
+  transform: translateY(-2px);
+  border-color: #c7d2fe;
+  box-shadow: 0 4px 10px rgba(63, 81, 181, 0.12);
+}
+
+.stack-logo {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* Text badge for technologies without an official logo (e.g. ImGui) */
+.stack-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background: #1f2937;
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 700;
 }
 
 /* Highlighted keywords (Robot terminology) */

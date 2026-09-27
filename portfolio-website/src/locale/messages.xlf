@@ -211,10 +211,58 @@
     </unit>
     <unit id="intro.stackLabel">
       <notes>
-        <note category="location">src/app/components/intro/intro.html:18,19</note>
+        <note category="location">src/app/components/intro/intro.html:20,22</note>
       </notes>
       <segment>
         <source>Core stack</source>
+      </segment>
+    </unit>
+    <unit id="stack.languages">
+      <notes>
+        <note category="location">src/app/components/intro/intro.ts:13</note>
+      </notes>
+      <segment>
+        <source>Languages</source>
+      </segment>
+    </unit>
+    <unit id="stack.simulation">
+      <notes>
+        <note category="location">src/app/components/intro/intro.ts:23</note>
+      </notes>
+      <segment>
+        <source>Robotics &amp; Simulation</source>
+      </segment>
+    </unit>
+    <unit id="stack.tooling">
+      <notes>
+        <note category="location">src/app/components/intro/intro.ts:34</note>
+      </notes>
+      <segment>
+        <source>Desktop &amp; Tooling</source>
+      </segment>
+    </unit>
+    <unit id="stack.devops">
+      <notes>
+        <note category="location">src/app/components/intro/intro.ts:45</note>
+      </notes>
+      <segment>
+        <source>DevOps &amp; Automation</source>
+      </segment>
+    </unit>
+    <unit id="stack.ai">
+      <notes>
+        <note category="location">src/app/components/intro/intro.ts:57</note>
+      </notes>
+      <segment>
+        <source>AI, Embedded &amp; IoT</source>
+      </segment>
+    </unit>
+    <unit id="stack.web">
+      <notes>
+        <note category="location">src/app/components/intro/intro.ts:69</note>
+      </notes>
+      <segment>
+        <source>Web</source>
       </segment>
     </unit>
     <unit id="proj.heading">

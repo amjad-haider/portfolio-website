@@ -15,10 +15,29 @@
   </p>
 
   <div class="core-stack">
-    <span class="core-stack-label" i18n="@@intro.stackLabel">Core stack</span>
-    @for (tech of coreStack; track tech) {
-      <span class="stack-chip">{{ tech }}</span>
-    }
+    <h2 class="core-stack-title">
+      <span class="material-icons">construction</span>
+      <span i18n="@@intro.stackLabel">Core stack</span>
+    </h2>
+    <div class="stack-groups">
+      @for (group of coreStack; track group.name) {
+        <div class="stack-group">
+          <h3 class="stack-group-name">{{ group.name }}</h3>
+          <div class="stack-items">
+            @for (item of group.items; track item.name) {
+              <span class="stack-item">
+                @if (item.logo) {
+                  <img [src]="'/assets/tech/' + item.logo + '.svg'" alt="" class="stack-logo" loading="lazy">
+                } @else {
+                  <span class="stack-logo stack-badge">{{ item.badge }}</span>
+                }
+                {{ item.name }}
+              </span>
+            }
+          </div>
+        </div>
+      }
+    </div>
   </div>
   <!-- <div class="cta-buttons">
       <button mat-raised-button color="primary" (click)="scrollTo('projects')">View My Work</button>
