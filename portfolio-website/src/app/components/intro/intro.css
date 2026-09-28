@@ -17,6 +17,7 @@
 
 .intro-content h1 {
   font-size: clamp(2rem, 8vw, 3.5rem); /* Responsive font size */
+  line-height: 1.15; /* keeps wrapped lines (e.g. the longer German greeting) from overlapping */
   margin-bottom: 20px;
   color: var(--mat-sys-primary); /* Uses your Material theme primary color */
 }
