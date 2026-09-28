@@ -1,31 +1,49 @@
 <section class="projects-section">
   <h2><mat-icon color="primary">code</mat-icon><span i18n="@@proj.heading">Projects</span></h2>
-  
+
   <div class="projects-grid">
-    <mat-card *ngFor="let project of projects" class="project-card">
-      
-      <img mat-card-image [src]="project.imageUrl" alt="Image for {{ project.title }}" i18n-alt="@@proj.imageAlt">
-      
-      <mat-card-header>
-        <mat-card-title>{{ project.title }}</mat-card-title>
-        <mat-card-subtitle>
-          <span *ngFor="let tech of project.techStack" class="tech-tag">{{ tech }}</span>
-        </mat-card-subtitle>
-      </mat-card-header>
-      
-      <mat-card-content>
-        <p>{{ project.description }}</p>
-      </mat-card-content>
-      
-      <mat-card-actions class="card-actions">
-        <a [href]="project.githubLink" target="_blank" mat-button color="primary">
-          <mat-icon>code</mat-icon> <span i18n="@@proj.code">Code (GitHub)</span>
-        </a>
-        
-        <a *ngIf="project.liveLink" [href]="project.liveLink" target="_blank" mat-button color="accent">
-          <mat-icon>launch</mat-icon> <span i18n="@@proj.demo">Live Demo</span>
-        </a>
-      </mat-card-actions>
-    </mat-card>
+    @for (project of projects; track project.title) {
+      <mat-card class="project-card">
+        @if (project.imageUrl) {
+          <div class="project-media">
+            <img [src]="project.imageUrl" alt="Image for {{ project.title }}" i18n-alt="@@proj.imageAlt" loading="lazy">
+          </div>
+        } @else {
+          <div class="project-media project-media-icon">
+            <mat-icon>{{ project.icon }}</mat-icon>
+          </div>
+        }
+
+        <mat-card-header>
+          <mat-card-title>
+            {{ project.title }}
+            @if (project.inProgress) {
+              <span class="status-badge" i18n="@@proj.inProgress">In progress</span>
+            }
+          </mat-card-title>
+          <mat-card-subtitle>
+            @for (tech of project.techStack; track tech) {
+              <span class="tech-tag">{{ tech }}</span>
+            }
+          </mat-card-subtitle>
+        </mat-card-header>
+
+        <mat-card-content>
+          <p>{{ project.description }}</p>
+        </mat-card-content>
+
+        <mat-card-actions class="card-actions">
+          <a [href]="project.githubLink" target="_blank" rel="noopener" mat-button color="primary">
+            <mat-icon>code</mat-icon> <span i18n="@@proj.code">Code (GitHub)</span>
+          </a>
+
+          @if (project.liveLink) {
+            <a [href]="project.liveLink" target="_blank" rel="noopener" mat-button color="accent">
+              <mat-icon>launch</mat-icon> <span i18n="@@proj.demo">Live Demo</span>
+            </a>
+          }
+        </mat-card-actions>
+      </mat-card>
+    }
   </div>
 </section>

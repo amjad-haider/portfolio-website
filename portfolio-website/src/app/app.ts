@@ -10,7 +10,7 @@ import { Certifications } from './components/certifications/certifications'
 
 @Component({
   selector: 'app-root',
-  imports: [Intro, SidebarComponent, WorkExperience,Projects, Education, Certifications, Publications],
+  imports: [Intro, SidebarComponent, WorkExperience, Projects, Education, Certifications, Publications],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

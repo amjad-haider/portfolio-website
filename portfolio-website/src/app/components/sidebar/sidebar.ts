@@ -14,7 +14,6 @@ export class SidebarComponent {
   profileData = {
     name: 'Amjad Haider',
     title: $localize`:@@profile.title:Software Engineer`,
-    affiliation: $localize`:@@profile.affiliation:University of Kaiserslautern-Landau`,
     email: 'amjad.haider@gmx.de',
     profileImage: '/assets/profile.jpg',
     cvUrl: $localize`:@@profile.cvUrl:/assets/CV.pdf`, // German site links the German CV

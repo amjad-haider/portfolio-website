@@ -177,9 +177,25 @@
         <source>Fluid Mechanics and Heat Transfer</source>
       </segment>
     </unit>
+    <unit id="otw.label">
+      <notes>
+        <note category="location">src/app/components/intro/intro.html:5,6</note>
+      </notes>
+      <segment>
+        <source>Open to work</source>
+      </segment>
+    </unit>
+    <unit id="otw.details">
+      <notes>
+        <note category="location">src/app/components/intro/intro.html:6,8</note>
+      </notes>
+      <segment>
+        <source>Full-time roles in Germany · Available immediately · Open to relocation</source>
+      </segment>
+    </unit>
     <unit id="intro.greeting">
       <notes>
-        <note category="location">src/app/components/intro/intro.html:3,4</note>
+        <note category="location">src/app/components/intro/intro.html:8,9</note>
       </notes>
       <segment>
         <source>Hi, I&apos;m <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span class=&quot;highlight&quot;&gt;" dispEnd="&lt;/span&gt;">Amjad Haider</pc></source>
@@ -187,7 +203,7 @@
     </unit>
     <unit id="intro.tagline">
       <notes>
-        <note category="location">src/app/components/intro/intro.html:4,6</note>
+        <note category="location">src/app/components/intro/intro.html:9,11</note>
       </notes>
       <segment>
         <source>Software Engineer · C++ · Robotics · Simulation · Automation</source>
@@ -195,7 +211,7 @@
     </unit>
     <unit id="intro.p1">
       <notes>
-        <note category="location">src/app/components/intro/intro.html:7,10</note>
+        <note category="location">src/app/components/intro/intro.html:12,15</note>
       </notes>
       <segment>
         <source> I build software for robots, vehicles and embedded systems, with over 4 years of experience across industry and research: C++ perception and sensor-fusion modules for autonomous platforms, engineering tools with Qt, simulation environments in Gazebo and Webots, and Python automation pipelines that have run in production for years. </source>
@@ -203,23 +219,48 @@
     </unit>
     <unit id="intro.p3">
       <notes>
-        <note category="location">src/app/components/intro/intro.html:12,15</note>
+        <note category="location">src/app/components/intro/intro.html:17,20</note>
       </notes>
       <segment>
         <source> I also do research on efficient AI for control: my Master&apos;s thesis on pruning neural networks for edge devices was graded 1.0, and I have co-authored three papers at international robotics conferences. I am open to roles in software engineering, simulation, automation and research. </source>
       </segment>
     </unit>
+    <unit id="otw.contact">
+      <notes>
+        <note category="location">src/app/components/intro/intro.html:25,27</note>
+      </notes>
+      <segment>
+        <source>Get in touch</source>
+      </segment>
+    </unit>
+    <unit id="otw.cv">
+      <notes>
+        <note category="location">src/app/components/intro/intro.html:29,31</note>
+      </notes>
+      <segment>
+        <source>Download CV</source>
+      </segment>
+    </unit>
     <unit id="intro.stackLabel">
       <notes>
-        <note category="location">src/app/components/intro/intro.html:20,22</note>
+        <note category="location">src/app/components/intro/intro.html:36,38</note>
       </notes>
       <segment>
         <source>Core stack</source>
       </segment>
     </unit>
+    <unit id="profile.cvUrl">
+      <notes>
+        <note category="location">src/app/components/intro/intro.ts:11</note>
+        <note category="location">src/app/components/sidebar/sidebar.ts:19</note>
+      </notes>
+      <segment>
+        <source>/assets/CV.pdf</source>
+      </segment>
+    </unit>
     <unit id="stack.languages">
       <notes>
-        <note category="location">src/app/components/intro/intro.ts:13</note>
+        <note category="location">src/app/components/intro/intro.ts:16</note>
       </notes>
       <segment>
         <source>Languages</source>
@@ -227,7 +268,7 @@
     </unit>
     <unit id="stack.simulation">
       <notes>
-        <note category="location">src/app/components/intro/intro.ts:23</note>
+        <note category="location">src/app/components/intro/intro.ts:26</note>
       </notes>
       <segment>
         <source>Robotics &amp; Simulation</source>
@@ -235,7 +276,7 @@
     </unit>
     <unit id="stack.tooling">
       <notes>
-        <note category="location">src/app/components/intro/intro.ts:34</note>
+        <note category="location">src/app/components/intro/intro.ts:37</note>
       </notes>
       <segment>
         <source>Desktop &amp; Tooling</source>
@@ -243,7 +284,7 @@
     </unit>
     <unit id="stack.devops">
       <notes>
-        <note category="location">src/app/components/intro/intro.ts:45</note>
+        <note category="location">src/app/components/intro/intro.ts:48</note>
       </notes>
       <segment>
         <source>DevOps &amp; Automation</source>
@@ -251,7 +292,7 @@
     </unit>
     <unit id="stack.ai">
       <notes>
-        <note category="location">src/app/components/intro/intro.ts:57</note>
+        <note category="location">src/app/components/intro/intro.ts:60</note>
       </notes>
       <segment>
         <source>AI, Embedded &amp; IoT</source>
@@ -259,7 +300,7 @@
     </unit>
     <unit id="stack.web">
       <notes>
-        <note category="location">src/app/components/intro/intro.ts:69</note>
+        <note category="location">src/app/components/intro/intro.ts:72</note>
       </notes>
       <segment>
         <source>Web</source>
@@ -275,15 +316,23 @@
     </unit>
     <unit id="proj.imageAlt">
       <notes>
-        <note category="location">src/app/components/projects/projects.html:7</note>
+        <note category="location">src/app/components/projects/projects.html:9</note>
       </notes>
       <segment>
         <source>Image for <ph id="0" equiv="INTERPOLATION" disp="{{ project.title }}"/></source>
       </segment>
     </unit>
+    <unit id="proj.inProgress">
+      <notes>
+        <note category="location">src/app/components/projects/projects.html:21,23</note>
+      </notes>
+      <segment>
+        <source>In progress</source>
+      </segment>
+    </unit>
     <unit id="proj.code">
       <notes>
-        <note category="location">src/app/components/projects/projects.html:22,24</note>
+        <note category="location">src/app/components/projects/projects.html:37,40</note>
       </notes>
       <segment>
         <source>Code (GitHub)</source>
@@ -291,42 +340,50 @@
     </unit>
     <unit id="proj.demo">
       <notes>
-        <note category="location">src/app/components/projects/projects.html:26,28</note>
+        <note category="location">src/app/components/projects/projects.html:42,43</note>
       </notes>
       <segment>
         <source>Live Demo</source>
       </segment>
     </unit>
-    <unit id="proj.1.title">
+    <unit id="proj.fleetpulse.description">
       <notes>
-        <note category="location">src/app/components/projects/projects.ts:18</note>
+        <note category="location">src/app/components/projects/projects.ts:30</note>
       </notes>
       <segment>
-        <source>Autonomous Factory Automation System</source>
+        <source>Predictive maintenance platform for commercial vehicle fleets. A C# simulator streams ECU telemetry over gRPC to Spring Boot microservices, which store it per service in PostgreSQL, fan it out through Kafka and score vehicle risk, backed by a gradient-boosted model trained in Python and exported to ONNX. Includes a JWT-secured gateway, alerting, work orders and a Vaadin ops dashboard.</source>
       </segment>
     </unit>
-    <unit id="proj.1.description">
+    <unit id="proj.lanelet.description">
       <notes>
-        <note category="location">src/app/components/projects/projects.ts:20</note>
+        <note category="location">src/app/components/projects/projects.ts:38</note>
       </notes>
       <segment>
-        <source>Designed and simulated a complete industrial pipeline in Webots involving synchronized mobile robots and robotic arms for end-to-end material handling.</source>
+        <source>Reimplementing core Lanelet2 HD-map algorithms for autonomous driving from scratch in C++17 (Frenet conversion, map matching, routing and map validation) and grading each implementation against the library&apos;s own reference output.</source>
       </segment>
     </unit>
-    <unit id="proj.2.title">
+    <unit id="proj.gait.title">
       <notes>
-        <note category="location">src/app/components/projects/projects.ts:27</note>
+        <note category="location">src/app/components/projects/projects.ts:46</note>
       </notes>
       <segment>
-        <source>C++ Pathfinding Algorithm Visualizer</source>
+        <source>Humanoid Gait with Reinforcement Learning</source>
       </segment>
     </unit>
-    <unit id="proj.2.description">
+    <unit id="proj.gait.description">
       <notes>
-        <note category="location">src/app/components/projects/projects.ts:28</note>
+        <note category="location">src/app/components/projects/projects.ts:47</note>
       </notes>
       <segment>
-        <source>Implemented Dijkstra&apos;s and A* search algorithms in C++ to find the shortest path in a grid. Focus on performance and algorithm complexity.</source>
+        <source>Reproducible PPO training and evaluation pipeline for the MuJoCo Humanoid-v5 environment, with a structured ablation study over observation components, reward shaping and control frequency.</source>
+      </segment>
+    </unit>
+    <unit id="proj.iot.description">
+      <notes>
+        <note category="location">src/app/components/projects/projects.ts:56</note>
+      </notes>
+      <segment>
+        <source>Staged progression from statistical anomaly detection (rolling z-score, IQR) to classical machine learning (Isolation Forest, Local Outlier Factor, One-Class SVM), working toward anomaly detection on real IoT network traffic from the VARIoT dataset.</source>
       </segment>
     </unit>
     <unit id="pub.heading">
@@ -415,22 +472,6 @@
       </notes>
       <segment>
         <source>Software Engineer</source>
-      </segment>
-    </unit>
-    <unit id="profile.affiliation">
-      <notes>
-        <note category="location">src/app/components/sidebar/sidebar.ts:17</note>
-      </notes>
-      <segment>
-        <source>University of Kaiserslautern-Landau</source>
-      </segment>
-    </unit>
-    <unit id="profile.cvUrl">
-      <notes>
-        <note category="location">src/app/components/sidebar/sidebar.ts:20</note>
-      </notes>
-      <segment>
-        <source>/assets/CV.pdf</source>
       </segment>
     </unit>
     <unit id="exp.heading">

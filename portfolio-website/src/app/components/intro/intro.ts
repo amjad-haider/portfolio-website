@@ -7,6 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './intro.css'
 })
 export class Intro {
+  // Same message ID as the sidebar CV link, so the German site offers the German CV
+  cvUrl = $localize`:@@profile.cvUrl:/assets/CV.pdf`;
+
   // Logos live in /assets/tech/<logo>.svg; items without a logo show a text badge
   coreStack = [
     {
